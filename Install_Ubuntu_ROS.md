@@ -52,9 +52,49 @@ https://ubuntu.com/download/alternative-downloads
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/15d7052f-0290-4cc3-9fe6-b40c3906c357)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/44e64665-8e57-4628-9c6e-13e56b46daa2)
 
-12. Finally, you will need to select your time zone, and complete the blank spaces.
+12. You will need to select your country and time zone, and complete the blank spaces. After that, click on Continue and Ubuntu will installed.
+13. Finally, restart your PC.
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/c73d0504-c1fd-4479-95b1-e7c1b463dc31)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/e1a7020b-c3f4-4faa-8d28-a985665d1a51)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/85f9c9d7-a6ff-4b8d-9dfb-e14e7fd383d2)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/8ed751a0-ef61-40cb-8d5a-b27586ae1b77)
+
+14. From now on, every time you turn your laptop on, you will be asked about the OS you will use.
+15. Before install ROS Melodic, be sure you have internet access in your Ubuntu OS.
+
+## Install ROS Melodic
+
+1. Open the terminal. You can do that clicking on the square made of 9 points in the left-bottom corner, and searching the "Terminal" word.
+2. Copy one at a time the given commands.
+
+    sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+    sudo apt update
+    sudo apt install ros-melodic-desktop-full
+    echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc source ~/.bashrc
+    sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+    sudo apt-get install python-pip
+    sudo pip install -U rosdep
+    sudo rosdep init
+    rosdep update
+
+## Important programs that you may need to download
+
+  1. terminator (https://shanepark.tistory.com/313)
+
+    sudo apt-get install terminator
+    
+  2. sublime text (https://jjeongil.tistory.com/1346)
+
+    sudo apt update
+    sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+    sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+    sudo apt update
+    sudo apt install sublime-text
+    
+  3. screen recorder (https://pinkwink.kr/913)
+
+    sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+    sudo apt-get update
