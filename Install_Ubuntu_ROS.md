@@ -66,7 +66,7 @@ https://ubuntu.com/download/alternative-downloads
 ## Install ROS Melodic
 
   1. Open the terminal. You can do that clicking on the square made of 9 points in the left-bottom corner, and searching the "Terminal" word.
-  2. Copy one at a time the given commands.
+  2. Copy one at a time the given commands. It is possible you will need to put your password on the command window to run the below commands. 
 
     sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
     sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
