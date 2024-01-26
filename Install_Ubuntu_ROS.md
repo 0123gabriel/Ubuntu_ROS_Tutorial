@@ -3,7 +3,7 @@
 ## Create a bootable Ubuntu USB
   1. Click in the given link, then scroll down until the "Past releases and other flavours" section. Right there you will click on 18.04 version. Finally, download the Desktop Image file and remember the location of it. 
 https://ubuntu.com/download/alternative-downloads
-  2. Download Rufus, a free and open source USB stick writing tool. (https://rufus.ie/)
+  2. Download Rufus, a free and open source USB stick writing tool. (https://rufus.ie/) You may find some versions, pick the standard and newest one. 
   3. Launch rufus and set like any of the images below. Then click on the START button and the download of the ISO file on the USB will begin. (Note: The difference between the two images is in the Partition Scheme, you should use MBR if your computer was made before 2010, otherwise, you should use GPT).
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/89aa84a6-6d8d-451e-aa93-6c72e06750a3)
