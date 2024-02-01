@@ -15,7 +15,7 @@ For documentation you can visit CARLA website (https://carla.readthedocs.io/en/l
 pip install --user pygame numpy
 ```
 
-It is important to mention that CARLA website has instructions to install CARLA simulator but some commands are not currently working. That is why, after some research, I have found the following GitHub forum with an answer given by nenadilic84 (https://github.com/carla-simulator/carla/issues/7017). The steps he mentioned are the following:
+It is important to mention that CARLA website has instructions to install CARLA simulator but some commands are not currently working. That is why, after some research, I have found the following GitHub forum with a solution given by nenadilic84 (https://github.com/carla-simulator/carla/issues/7017). The steps he mention are the following:
 
 **1. Install Required System Dependency:** Run the following command in the Terminal.
 ```bash
