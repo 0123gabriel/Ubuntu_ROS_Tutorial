@@ -33,3 +33,7 @@ Then run this command:
 ```bash
 sudo tar -xzvf CARLA_0.9.15.tar.gz -C /opt/carla-simulator/
 ```
+**4. Install the CARLA Python Module:** Install the CARLA Python module.
+```bash
+python -m pip install carla==0.9.15
+```
