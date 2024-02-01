@@ -1,6 +1,6 @@
 # Tutorial to install CARLA 0.9.15 version to work with Pyhton 2 in Ubuntu 18.04
 
-For docuemntation you can visit CARLA website (https://carla.readthedocs.io/en/latest/). 
+For documentation you can visit CARLA website (https://carla.readthedocs.io/en/latest/). 
 
 ## Requirements
 - **System requirements:** CARLA is built for Windows and Linux systems.
