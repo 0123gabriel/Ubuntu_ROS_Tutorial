@@ -27,4 +27,30 @@ This tutorial assumes your university/college has an educationanl license for th
 
   14. Type "./install".
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9386e749-7285-4a91-bde4-e93c3e4085aa)
+
+  15. MATLAB will be launched. Sign in with your credentials, and click on the Yes button, and the Next.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/eee428bf-5c54-47fb-8e33-d002dac1e6ce)
+
+  16. You will see that in the top of the window there are 5 steps to complete: LICENSING, DESTINATION, PRODUCTS, OPTIONS and CONFIRMATION.
+  17. Press the Next button in the LICENSING section.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ae498cc4-5e04-411a-892e-0c6ab183c1f8)
+
+  18. In the DESTINATION step just click on Next. It is recomendable not change the default folder that appears in the DESTINATION folder.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/99135310-1c0b-4d41-9fc1-2d182d42415e)
+
+  19. In the PRODUCTS section select the ones you want, or select them all.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ce97f668-e755-4e25-9c92-ac0ca830a026)
+
+  20. In the OPTIONS section check the box and do not change anything. Click on Next.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/633626ea-9a74-405d-948e-8d9ce197aaae)
+
+  21. In the CONFIRMATION section, you will see the space MATLAB files will occupy in your computer, and click on Begin Install.
+  22. Finally, click on close and to execute MATLAB you have to open a Terminal, type "matlab" and press enter. 
+
  
