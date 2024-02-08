@@ -70,6 +70,7 @@ If your GPU does not have the minimum memory, you might need to run CARLA with l
 ```
 Once that was executed, you will see the following window.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5795fb3d-9e61-4d17-804c-cb67dc20efbb)
 
 
 If you want to spawn vehicles and people, you have to open a new Terminal, and run this instruction.
@@ -81,6 +82,7 @@ python generate_traffic.py
 
 And you some vehicles and people will appear. You can also will be able to see some graphics about vehicle data as friction, steering values, etc. 
 
+![WhatsApp Image 2024-02-07 at 20 32 26_962933ee](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9ea0b18e-191d-4e79-a9e2-0a0df7bea269)
 
 
 Finally, if you want to try drive a vehicle with CARLA and see how it works and what options does it have, you can open a new Terminal, and run this.
