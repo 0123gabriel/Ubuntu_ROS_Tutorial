@@ -9,11 +9,7 @@ For documentation you can visit CARLA website (https://carla.readthedocs.io/en/l
 - **Python:** Python is the main scripting language in CARLA. CARLA supports Python 2.7 and Python 3 on Linux, and Python 3 on Windows.
 - **Pip:** Some installation methods of the CARLA client library require pip or pip3 (depending on your Python version) version 20.3 or higher.
 - **Two TCP ports and good internet connection:** 2000 and 2001 by default. Make sure that these ports are not blocked by firewalls or any other applications.
-- **Other requirements:** CARLA requires some Python dependencies. Install the following dependencies.
-
-```bash
-pip install --user pygame numpy
-```
+- **Other requirements:** CARLA requires some Python dependencies. Their installation will be shown later on this tutorial.
 
 It is important to mention that CARLA website has instructions to install CARLA simulator but some commands are not currently working. That is why, after some research, I have found the following GitHub forum with a solution given by nenadilic84 (https://github.com/carla-simulator/carla/issues/7017). The steps he mention are the following:
 
@@ -37,8 +33,86 @@ sudo tar -xzvf CARLA_0.9.15.tar.gz -C /opt/carla-simulator/
 ```bash
 python -m pip install carla==0.9.15
 ```
-# Instal Visual Studio Code to see some example codes with CARLA
+# Install Visual Studio Code to see some example codes with CARLA
 You have to run the following command line.
 ```bash
 sudo snap install code --classic
 ```
+Once you have Visual Studio Code, you are able to watch the examples codes that came during CARLA installation. To watch them, you have to run the following instructions in the Terminal.
+
+```bash
+cd /opt/carla-simulator/pythonAPI/examples/
+code {file name}.py
+```
+
+Visual Studio Code should open, and you will see that python need some dependancies. Ton install those extra libraries, you have to run the following command in the Terminal.
+
+```bash
+pip install --user future numpy pygame matplotlib Pillow
+```
+The most important libraries are numpy and pygame (they are recommended to instal by CARLA website), but you will need the rest of them to run different codes. 
+
+## Running CARLA with NVidia Drivers
+
+If you don not have NVidia GPUs, please read the next section. 
+
+As it was mentioned before, you will need a GPU with at least 6GB. CARLA versions after 0.9.12 work with Vulkan Drivers, which are from NVidia. So if you have those type of GPU, you will be able to run the following instructions.
+
+```bash
+cd /opt/carla-simulator/
+./CarlaUE4.sh
+```
+
+If your GPU does not have the minimum memory, you might need to run CARLA with low quality graphics, to do that, please run this command.
+
+```bash
+./CarlaUE4.sh -quality-level=Low
+```
+Once that was executed, you will see the following window.
+
+
+
+If you want to spawn vehicles and people, you have to open a new Terminal, and run this instruction.
+
+```bash
+cd /opt/carla-simulator/PythonAPI/examples/
+python generate_traffic.py
+```
+
+And you some vehicles and people will appear. You can also will be able to see some graphics about vehicle data as friction, steering values, etc. 
+
+
+
+Finally, if you want to try drive a vehicle with CARLA and see how it works and what options does it have, you can open a new Terminal, and run this.
+
+```bash
+cd /opt/carla-simulator/PythonAPI/examples/
+python manual_control.py
+```
+After that, you will see the controls in your Terminal
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6d776da1-6bbc-4174-af0b-3d7079a45137)
+
+And a windows like this one will pop up. 
+
+![Screenshot from 2024-02-06 19-50-30](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6a6028dc-941b-4e09-a237-f3be64ece37a)
+
+## Runing CARLA without NVidia Drivers
+
+As it was mentioned before, CARLA versions after 0.9.12 work with Vulkan Drivers, so you may have some problems trying to run it without them. However, here is how you can do it. 
+
+If you do not have Vulkan Drivers, you should have OpenGL dirvers, which were used before NVidia started making their GPUs. You can check those drivers running the following in the Terminal. 
+
+```bash
+glxinfo | grep "OpenGL version"
+```
+
+This CARLA version will not work without Vulkan Drivers. You can try but a pop up window will appear and will say that CARLA could not found the needed drivers. To solve that problem, run this in the Terminal. 
+
+```bash
+sudo apt-get install libvulkan1 libvulkan1:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386
+```
+
+Once you did that, your computer will have Vulkan Drivers and you are now able to run CARLA. It is important for you to know that having wrong drivers may give you some problems. 
+
+
