@@ -115,4 +115,45 @@ sudo apt-get install libvulkan1 libvulkan1:i386 mesa-vulkan-drivers mesa-vulkan-
 
 Once you did that, your computer will have Vulkan Drivers and you are now able to run CARLA. It is important for you to know that having wrong drivers may give you some problems. 
 
+## CARLA client library
 
+This libraries are used to enable the comunication between CARLA and a DRL algorithm to probe them. You will find this library in the following path.
+
+```bash
+cd /opt/carla-simulator/PythonAPI/carla/dist/
+```
+
+To see them, type "ls" in the terminal. You will that there is 4 files: 2 ```bash .egg ``` files and 2 ```bash .whl ```. These are the compressed form of the libraries we need.  
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9ae81e8b-9e58-4ae6-8a5e-07b6e4f30bb0)
+
+As we are using CARLA 0.9.15, we need to install .whl files, beacuse .egg files are used by CARLA versions prios 0.9.12. 
+Now, to install the library needed, you have to know which python version you will use to develop de DRL algorithm. If you are using python 2, you have to install the .whl file that contains cp27 in the name, and, of course, if you will use python 3, you have to install the other file. 
+
+To install that file, I highly recommend to do it in a virtual environment to avoid any future conflict. To make a virtual environment, you have to create a new folder where the virtual environment will stay. Once you have created, please right click anywhere in the folder, and select Open in Terminal. In the Terminal, run 
+
+```bash
+pip install virtualenv
+virtualenv -p /usr/bin/python2.7 {Name of the virtual environment}
+source {virtual environment name}/bin/activate
+```
+
+This will starts the virtual enviroment and to know that you are actually working on the virtual environment, your Terminal will be shown like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/81fb3e03-3635-4b1a-a809-a033622525d7)
+
+If you try to run any Python code there, you will have some errors saying that you do not have the required libraries. That is why all libraries we have installed until this point can not be recognized inside the virtual enviroment, so you will to install them again in the virtual Environment. 
+
+Finally, once you have finished using the virtual environment, do not forget to close it. To do that, run the following line. 
+
+```bash
+deactivate
+```
+
+Keep going with the .whl file installation. Once you are in the virtual environment you already made, run this line in the Terminal.
+
+```bash
+pip install /opt/carla-simulator/PythonAPI/carla/dist/carla-0.9.15-cp27-cp27mu-manylinux_2_27_x86_64.whl
+```
+
+And you are done with CARLA installation
