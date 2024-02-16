@@ -107,7 +107,7 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libidn.so.12 /usr/lib64/libidn.so.11
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/libidn.so.11
 ```
 
-The last command, should be added to the bash.rc file to ensure that the path ```bash /usr/lib64/libidn.so.11 ``` is going to be available for every time you open a terminal. To do that, you should run this.
+The last command, should be added to the bash.rc file to ensure that the path ```bash /usr/lib64/libidn.so.11 ``` is going to be available for every time you turn on your computer. To do that, you should run this.
 
 ```bash
 echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/libidn.so.11' >> ~/.bashrc
