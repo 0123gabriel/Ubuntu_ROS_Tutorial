@@ -166,4 +166,15 @@ cd /usr/local/RoadRunner_R2023b/bin/glnxa64 && LD_LIBRARY_PATH=. QT_PLUGIN_PATH=
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/46733497-76e2-4384-8519-acdd0e5a2aee)
 
+Then, click on Next button, and select the path where your license.lic file is. It should be in the Dowmloads folder.   
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ff78bae2-81d6-4c2e-9cac-a9573ecbb151)
+
+After that, you will have RoadRunner running correctly, and it should look like this. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/791ca4fe-0855-4a97-8e53-955617bae588)
+
+
+
+
 
