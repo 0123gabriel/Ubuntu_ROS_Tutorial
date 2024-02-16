@@ -72,4 +72,88 @@ This will show all the information about every net interface, so you will watch 
 10. Copy the Host ID you will use. In this case, I am going to use my Wi-Fi net interface so I selected my Host ID related to wlo1 interface.
 11. Set a name for your computer, to know which machine is using RoadRunner when you launch it, and then click on Continue.
 12. A window will ask you if the software is installed, clik on the answer No, and click on Continue.
-13. MathWorks will ask you to download or email you the License File, you can do both if you want, and click on the intructions link. 
+13. MathWorks will ask you to download or email you the License File, you can do both if you want, and click on the intructions link, to read more about the installation process.
+14. Go to the following link (https://www.mathworks.com/downloads/web_downloads) and click on Get RoadRunner Products desplegable, and download it by clicking on the blue button, which should has written the Operative System you have, and previously selected.
+
+## Installing RoadRunner
+
+If you are working in Ubuntu 16.04, 18.04, or 20.04, you just need to click on the .deb file that was downloaded previously, and the following window will appear. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/46733497-76e2-4384-8519-acdd0e5a2aee)
+
+But, if you are using Ubuntu 22.04, then you have to do extra stuff to have your program running. This is beacuse Ubuntu 22.04 is too new to execute RoadRunner. 
+
+### ***Extra steps to run RoadRunner in Ubuntu 22.04***
+
+Open the Terminal and run the following command
+
+```bash
+sudo dpkg -i {name of the .deb file downloaded}
+```
+
+In my case, I had to run this command:
+
+```bash
+sudo dpkg -i RoadRunner_R2023b_Update_6_glnxa64.deb
+```
+
+Once it is done, you will be able to search RoadRunner in the apps your Ubuntu has, but once you click on it, nothing is going to happen. This problem has been solved here (https://www.mathworks.com/matlabcentral/answers/1889127-i-can-t-launch-roadrunner-after-installation), if you want to read more about. And what is says is basically to run this commands in ther terminal.
+
+```bash
+sudo ln -s /usr/lib/x86_64-linux-gnu/libidn.so.12 /usr/lib64/libidn.so.11
+```
+
+```bash
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/libidn.so.11
+```
+
+Once you are done with them, you can try to this on the Terminal
+
+```bash
+cd /usr/local/RoadRunner_R2023b/bin/glnxa64 && LD_LIBRARY_PATH=. QT_PLUGIN_PATH=./plugins ./AppRoadRunner
+```
+
+That could give you an error, if that happens, accordingly with the previous link, you have to rename some files. To do that, type this in the terminal.
+
+```bash
+/usr/local/RoadRunner_R2023b/bin/glnxa64
+```
+
+This will move you to the directory where the needed files to run RoadRunner are. You can check them with the ```bash ls ``` command. Then, you have to run this command as many times as the files you have to rename. 
+
+```bash
+sudo mv {original name of the file} {original name of the file}.old
+```
+
+The files to be renamed are:
+
+*libdrm.so.2
+*libXi.so.6
+*libX11.so.6
+*libXau.so.6
+*libXext.so.6
+*libXdmcp.so.6
+*libXfixes.so.3
+*libXdamage.so.1
+*libXrender.so.1
+*libXxf86vm.so.1
+*libxshmfence.so.1
+*libcurl.so.4
+
+An example to rename the first file are showed below.
+
+```bash
+sudo mv libdrm.so.2 libdrm.so.2.old
+```
+
+As a recommendation, you can check if the file exist by typing this
+
+```bash
+find -name {file name}
+```
+
+Once you are done with that, run this previously mentioned command.
+
+```bash
+cd /usr/local/RoadRunner_R2023b/bin/glnxa64 && LD_LIBRARY_PATH=. QT_PLUGIN_PATH=./plugins ./AppRoadRunner
+```
