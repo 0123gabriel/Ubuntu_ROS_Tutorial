@@ -158,8 +158,12 @@ As a recommendation, you can check if the file exist by typing this
 find -name {file name}
 ```
 
-Once you are done with that, run this previously mentioned command.
+Once you are done with that, run this previously mentioned command, and you will get the same window to start using RoadRunner. 
 
 ```bash
 cd /usr/local/RoadRunner_R2023b/bin/glnxa64 && LD_LIBRARY_PATH=. QT_PLUGIN_PATH=./plugins ./AppRoadRunner
 ```
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/46733497-76e2-4384-8519-acdd0e5a2aee)
+
+
