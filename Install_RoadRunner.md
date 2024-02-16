@@ -32,7 +32,8 @@ Or in yout account, after loggin in.
 
 9. To check your computer Host ID you can do it with 2 methods:
 
-***1st Method***
+### ***1st Method***
+
 You have to run the following commands in the terminal.
 
 ```bash
@@ -56,9 +57,10 @@ In this case, you shoul run this
 /sbin/ifconfig enp56s0
 ```
 
-Run that command for every Iface your computer showed. The output of those commands will show some date, the Host ID is the 12 digiit number next to the ether word. In my case, my computer showed three names in the Iface column, so I had to try the previous command trhee times, and I found out that my computer has a Ethernet and Wi-Fi net interfaces, so I have 2 Host ID. 
+Run that command for every Iface your computer showed. The output of those commands will the Host ID which is the 12 digit number next to the "ether" word. In my case, my computer showed three names in the Iface column, so I had to try the previous command three times, and I found out that my computer has a Ethernet and Wi-Fi net interfaces, so I have 2 Host ID. 
 
-***2nd Method***
+### ***2nd Method***
+
 Run the following command in ther terminal
 
 ```bash
