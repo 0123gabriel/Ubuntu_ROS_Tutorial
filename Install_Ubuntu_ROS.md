@@ -1,6 +1,8 @@
 # Installing Ubuntu 18.04 version and ROS Melodic
 
-## Create a bootable Ubuntu USB
+To install Ubuntu, you will have to methods. The ***first method*** is install Ubuntu alongside Windows (i.e. Dual Boot) and for this one it is recommendable to format your PC and reinstall Windows first, and then Ubuntu. As a brief summary of this method, when you are installing Windows, delete all the partitions in the disk, and then create one with the desired space for Windows OS, and leave the other one, which is going to store Ubuntu. This method ensures that Ubuntu will recognize the Windows partition, so will not have future problems with that. The ***second method*** is to make a partition after Windows is installed, which could not let Ubuntu recognizing Windows. This tutorial performs the second method (do not reinstall Windows), but I will write some notes to guide you with the recommendable way to install Ubuntu. 
+
+## Create a bootable Ubuntu USB (Step for both methods)
   1. Click in the given link, then scroll down until the "Past releases and other flavours" section. Right there you will click on 18.04 version. Finally, download the Desktop Image file and remember the location of it. 
 https://ubuntu.com/download/alternative-downloads
   2. Download Rufus, a free and open source USB stick writing tool. (https://rufus.ie/) You may find some versions, pick the standard and newest one. 
@@ -9,7 +11,7 @@ https://ubuntu.com/download/alternative-downloads
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/89aa84a6-6d8d-451e-aa93-6c72e06750a3)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/7f5820c3-c36b-4e42-9c8f-8913e0cbfa57)
 
-## Make a partition for Ubuntu
+## Make a partition for Ubuntu (Step for 2nd method)
 
   1. Open the command prompt (cmd) and type diskmgmt.msc
   2. Choose the storage in the Volume Column that will be used to make the partition to store Ubuntu OS and right click on it, then press Shrink Volume button.
@@ -25,7 +27,7 @@ https://ubuntu.com/download/alternative-downloads
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/5a0a0dce-5b34-41fc-b859-cfb4796c5acf)
 
-## Install Ubuntu
+## Install Ubuntu (Step for both methods)
 
   1. You will have to restart or reboot your PC or laptop with the USB with Ubuntu ISO plugged in.
   2. Once your computer is getting started, you need to press F12 to access to the BIOS. If your computer does not access to the BIOS with F12, please look for the correct button needed to be pressed.
