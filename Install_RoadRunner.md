@@ -69,3 +69,4 @@ This will show all the information about every net interface, so you will watch 
 
 10. Copy the Host ID you will use. In this case, I am going to use my Wi-Fi net interface so i select my Host ID related to wlo1 interfac.
 11. Set a name for your computer, to know which machine is using RoadRunner when you launch it, and then click on Continue.
+12. A window will ask you if the software is installed, clik on the answer No, and click on Continue.
