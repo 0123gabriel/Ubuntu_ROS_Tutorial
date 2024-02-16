@@ -1,4 +1,4 @@
-# Tutorial to instal MathWorks RoadRunner on Ubuntu 22.04
+# Tutorial to install MathWorks RoadRunner on Ubuntu 22.04
 
 1. Go to MathWorks website and sign in (https://www.mathworks.com/login).
 2. Then open the following link to request your RoadRunner license (https://la.mathworks.com/academia/student-competitions/carla-autonomous-driving-challenge.html).
