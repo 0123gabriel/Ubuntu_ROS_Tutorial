@@ -30,5 +30,42 @@ Or in yout account, after loggin in.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a010dfd4-e165-4da3-b94e-a40f6c9fc42b)
 
-9. To check your computer Host ID you have to run the following commands in the terminal.
+9. To check your computer Host ID you can do it with 2 methods:
 
+***1st Method***
+You have to run the following commands in the terminal.
+
+```bash
+sudo apt install net-tools
+netstat -i
+```
+
+The output of that command will show a table, you have to look to the Iface column which shows the net interfaces your computer has. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7c10c7bf-6ebd-4453-9f1c-85fcc6e6822f)
+
+To know your Host ID run the following command in the terminal
+
+```bash
+/sbin/ifconfig {name of the net interface}
+```
+
+In this case, you shoul run this
+
+```bash
+/sbin/ifconfig enp56s0
+```
+
+Run that command for every Iface your computer showed. The output of those commands will show some date, the Host ID is the 12 digiit number next to the ether word. In my case, my computer showed three names in the Iface column, so I had to try the previous command trhee times, and I found out that my computer has a Ethernet and Wi-Fi net interfaces, so I have 2 Host ID. 
+
+***2nd Method***
+Run the following command in ther terminal
+
+```bash
+ifconfig
+```
+
+This will show all the information about every net interface, so you will watch the same information with the previous method, with less steps. It is important to mention that the interfaces that star with "en" are mostly related with Ethernet interfaces, and if it starts with "w" is mostly realted to Wi-Fi interfaces. 
+
+10. Copy the Host ID you will use. In this case, I am going to use my Wi-Fi net interface so i select my Host ID related to wlo1 interfac.
+11. Set a name for your computer, to know which machine is using RoadRunner when you launch it, and then click on Continue.
