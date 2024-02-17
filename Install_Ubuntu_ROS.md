@@ -1,12 +1,14 @@
 # Installing Ubuntu 18.04 version and ROS Melodic
 
-To install Ubuntu, you will have to methods. The ***first method*** is install Ubuntu alongside Windows (i.e. Dual Boot) and for this one it is recommendable to format your PC and reinstall Windows first, and then Ubuntu. As a brief summary of this method, when you are installing Windows, delete all the partitions in the disk, and then create one with the desired space for Windows OS, and leave the other one, which is going to store Ubuntu. This method ensures that Ubuntu will recognize the Windows partition, so will not have future problems with that. The ***second method*** is to make a partition after Windows is installed, which could not let Ubuntu recognizing Windows. This tutorial performs the second method (do not reinstall Windows), but I will write some notes to guide you with the recommendable way to install Ubuntu. 
+To install Ubuntu, you can use 2 methods. The ***first method*** is install Ubuntu alongside Windows (i.e. Dual Boot) and for this one it is recommendable to format your PC and reinstall Windows first, and then Ubuntu. As a brief summary of this method, when you are installing Windows, delete all the partitions in the disk, and then create one with the desired space for Windows OS, and leave the other one, which is going to store Ubuntu. This method ensures that Ubuntu will recognize the Windows partition, so will not have future problems with that. The ***second method*** is to make a partition after Windows is installed, which could not let Ubuntu recognizing Windows. This tutorial performs the second method (do not reinstall Windows), but I will write some notes to guide you with the recommendable way to install Ubuntu. 
 
 ## Create a bootable Ubuntu USB (Step for both methods)
   1. Click in the given link, then scroll down until the "Past releases and other flavours" section. Right there you will click on 18.04 version. Finally, download the Desktop Image file and remember the location of it. 
 https://ubuntu.com/download/alternative-downloads
   2. Download Rufus, a free and open source USB stick writing tool. (https://rufus.ie/) You may find some versions, pick the standard and newest one. 
   3. Launch rufus and set like any of the images below. Then click on the START button and the download of the ISO file on the USB will begin. (Note: The difference between the two images is in the Partition Scheme, you should use MBR if your computer was made before 2010, otherwise, you should use GPT).
+
+     (Note: To install Windows you have to make the previous process but with the ISO image for Windows)
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/89aa84a6-6d8d-451e-aa93-6c72e06750a3)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/7f5820c3-c36b-4e42-9c8f-8913e0cbfa57)
@@ -18,7 +20,7 @@ https://ubuntu.com/download/alternative-downloads
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/956ce598-ac76-4d38-8d21-098b2da3f045)
 
-  3. Assign the appropriate amount of storage for Ubuntu. Ubuntu's page recommend at least 25GB, and you also should think about the programs you will use in that OS.
+  3. Assign the appropriate amount of storage for Ubuntu. Ubuntu's page recommend at least 25GB, but you should think about the program's size you will use in that OS, and also read the nineth step, to have a better space for Ubuntu. 
   4. Click on the Shrink button.
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/04456856-4302-4b49-939c-71cc0026ec57)
@@ -30,8 +32,8 @@ https://ubuntu.com/download/alternative-downloads
 ## Install Ubuntu (Step for both methods)
 
   1. You will have to restart or reboot your PC or laptop with the USB with Ubuntu ISO plugged in.
-  2. Once your computer is getting started, you need to press F12 to access to the BIOS. If your computer does not access to the BIOS with F12, please look for the correct button needed to be pressed.
-  3. When BIOS is open, in the left hand section, you will see the bootable devices that the computer recognize. Please select the USB.
+  2. Once your computer is getting started, you need to press F12 (or F2) to access to the BIOS. If your computer does not access to the BIOS with F12 (or F2), please look for the correct button needed to be pressed.
+  3. When BIOS is open, you need to disable the Secure Boot and Fast Boot options, then you will see the bootable devices that the computer recognizes. Please select the USB.
   4. Ubuntu will boot, and you will see an icon that says "Install Ubuntu", select that button.
   5. After that, you have to set some feauters of the system such as the language. The following images show those easy steps. Note: It is recommended to click the Normal Installation option. 
   6. After select the Normal installation, it will ask you the Installation Type, you have to select the option "Something else" which allows you to use the previous made partition.
@@ -47,9 +49,24 @@ https://ubuntu.com/download/alternative-downloads
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/324006e9-0fe5-4d1d-92ec-506a2cd995c7)
 
-  9. A pop up window will apper, do not change the size, select the option "logical", and the option "The point where this space starts", and in the last one, look for the "/" option in the desplegable list.
-  10. Then click on the Okay button, and that pop up window will close.
-  11. Select the storage you just made, then select the Install now button, and click on Continue in the pop up window. 
+  9. A pop up window will apper. Then, it is recommendable to create 3 partitions. The first one is going to be for an EFI partition which is used by the OS to get the drivers ready when the computer turns on and it will need at most 1GB, the second is to store Ubuntu, and the third one is a SWAP Partition, which is basically an extra RAM memory that the OS uses when you are running programas that consumes all of the RAM that your computer has, so the program will nor crash, but it will going to run slower. The SWAP partition size will depend on your original RAM memory, if you have more than 16GB, you can give to this partition the RAM memory size plus 2, and if you have less than 16GB, give it the double of your RAM memory. 
+  10. To create the EFI partition type 1000 in the first blank space, select Binary option, and Beginningo of this space, and in the part that says Use as select EFI Partition, and press OK.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3fb3a19f-2b0c-4c09-871e-b0a038304564)
+
+  11. To create the partition to store Ubuntu, click on "+" and fill all the items as the image below and with the size taht you will give to Ubuntu. In this case I gave it 440GB. Please do not get confused, the partition I made in the previous step was just an example, I changed the size of my SSD so repeat all the process and I was able to give to the Ubuntu partition more space. Then press OK.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d6a676a6-ff19-4639-890b-651f365a64df)
+
+  12. To create the SWAP partition, click on "+" button again and all the free space you have would be for this partition. Then complete all the items as the image below. Then press OK.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2a828f75-bb82-4854-9260-e15cf5514b85)
+
+  13. Check the box of the partition to store Ubuntu (the one that has "ext4" in the name / the second one you made).
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/25b7d62d-b4c4-4261-81e9-ca9db9a8d9d0)
+
+  15. Click on Continue in the pop up window. 
 
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/15d7052f-0290-4cc3-9fe6-b40c3906c357)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/44e64665-8e57-4628-9c6e-13e56b46daa2)
