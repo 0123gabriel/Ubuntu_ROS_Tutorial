@@ -76,7 +76,7 @@ If you do not have python2, you will have this output
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/35a6c32f-160d-4147-99ed-bb236d40c671)
 
-So, to install pyhton2, run this commands in ther terminal.
+So, to install pyhton2, run this commands in the terminal.
 
 ```bash
 sudo apt update
@@ -90,7 +90,7 @@ After the last command you will be asked to install or no Python, please type *Y
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/98511bf0-aba5-4bde-ba67-4c324d1e0e4e)
 
-* ***pip:*** CARLA will need to install some python packages, and to do that, you will need the Python Package Installer software, which is abbreviated as pip. There is a pip version for python2, called pip, and another to python3, called pip3. To install this 2 versions of pip, please check if you already have them, by this command.
+* ***pip:*** CARLA will need to install some python packages, and to do that, you must have pip or pip3 versions higher than 20.3. To check if you have pip or pip3, run this commands in ther terminal. 
 
 This for pip (python2)
 ```bash
@@ -102,7 +102,7 @@ This for pip3 (python3)
 pip3 --version
 ```
 
-If you already have pip, please upgrade it and to do that read the third command show below. But, if you do not have it, run this to install ***pip**.
+If you already have pip, please upgrade it and to do that read the third command show below. But, if you do not have it, run this to install **pip**. You might be asked to type *Y* to install it, please do it and press enter. 
 
 ```bash
 curl 'https://bootstrap.pypa.io/pip/2.7/get-pip.py' > get-pip.py && sudo python2 get-pip.py
@@ -124,23 +124,26 @@ To upgrade pip to the latest version, run this commands.
 pip install --upgrade pip
 ```
 
-If you already have pip3, upgrade it by running the third command show below. If you do not have it, to install ***pip3*** run this.
+If you already have pip3, upgrade it by running the third command show below. If you do not have it, to install ***pip3*** run this. You might be asked to type *Y* to install it, please do it and press enter. 
 
 ```bash
 pip install --upgrade pip
 ```
 
-To check the pip3 versions, type this.
+To check the pip3 versions, type this. and the output should be the one show below.
 
 ```bash
 pip3 -V
 ```
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/144f3d1b-a882-428e-a009-0b442f1d5c5c)
 
 To upgrade pip3 to the latest version, tun this command.
 
 ```bash
 pip3 install --upgrade pip
 ```
+
 
 
 
