@@ -58,7 +58,7 @@ sudo apt-get install net-tools
 
 ### Software requirements
 
-* ***Python:*** You will need to have python2 and python3 installed in your computer. Most of the Ubuntu OS come with python, and you can check that by running this command
+* ***Python:*** You will need to have python2 and python3 installed in your computer. Most of the Ubuntu OS come with python3, and you can check that by running this command
 
 ```bash
 python3 --version
