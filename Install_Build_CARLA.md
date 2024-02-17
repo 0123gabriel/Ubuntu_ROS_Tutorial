@@ -144,7 +144,7 @@ pip3 install --upgrade pip
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/144f3d1b-a882-428e-a009-0b442f1d5c5c)
 
-* ***CARLA software required:*** CARLA requires some prevoius software installed in your computer. To have them, copy all of the below commands, and paste them in ther terminal, then press enter. 
+* ***CARLA software required:*** CARLA requires some prevoius software installed in your computer. To have them, copy all of the below commands at once, and paste them in the terminal, then press enter. 
 
 ```bash
 sudo apt-get update &&
