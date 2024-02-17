@@ -216,10 +216,58 @@ pip3 install --user pygame numpy
 
 ## Installing Unreal Engine
 
-1. Run the following command.
+1. Run the following command to clone the content for CARLA's fork of Unreal Engine 4.26 to your local computer.
 
 ```bash
 git clone --depth 1 -b carla https://github.com/CarlaUnreal/UnrealEngine.git ~/UnrealEngine_4.26
+```
+
+If your run the previous command, and you get a message like this:
+
+```bash
+remote: Support for password authentication was removed on August 13, 2021.
+```
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2226d99f-4c08-4623-852d-4286c344edb4)
+
+### ---------------------------------------------------------
+### Solve for the last error
+
+1. You have to open your GitHub account, go to settings (clicking on the right top corner, and looking for settings option).
+2. In the sidebar, click on Developer settings.
+3. In the sidebar, click on Personal access tokens and click on Tokens (classic).
+4. Then click on Generate new token button (right side) and select Generate new token (classic), and enter your password.
+5. Give a name for the token, it should be related with the reason your are creating it, then select a amount of days for the token expiration, and select the tasks you are going to do with it, o just select all of them.
+6. Click on Generate token, and copy your token and save it in a place you will remember, because you will not see your token again.
+7. Run this commands in the terminal.
+
+```bash
+git config --global user.name "your_github_username"
+```
+
+```bash
+git config --global user.email "your_github_email"
+```
+
+```bash
+git config -l
+```
+
+With the last one, you will see your name, and email set. 
+
+### ---------------------------------------------------------
+
+Now, run again the command in step one, you will be asked for your GitHub username, and the for your password. In the password paste your Personal Acces Token. 
+2. Go to the directory where you cloned the repository, by running this. 
+
+```bash
+cd ~/UnrealEngine_4.26
+```
+
+3. Make the build. This may take an hour or two depending on your system.
+
+```bash
+./Setup.sh && ./GenerateProjectFiles.sh && make
 ```
 
 
