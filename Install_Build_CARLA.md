@@ -86,7 +86,7 @@ sudo apt update
 sudo apt install python2
 ```
 
-After the last command you will be asked to install or no Python, please type *Y* and press enter. Once you have python2 installed, you will get this after running ```bash python --version ```
+After the last command you will be asked to install or no Python, please type *Y* and press enter. Once you have python2 installed, you will get this after running ```python --version ```
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/98511bf0-aba5-4bde-ba67-4c324d1e0e4e)
 
