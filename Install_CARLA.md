@@ -33,7 +33,7 @@ sudo tar -xzvf CARLA_0.9.15.tar.gz -C /opt/carla-simulator/
 ```bash
 python -m pip install carla==0.9.15
 ```
-# Install Visual Studio Code to see some example codes with CARLA
+# (Optional) Install Visual Studio Code to see some example codes with CARLA
 You have to run the following command line.
 ```bash
 sudo snap install code --classic
