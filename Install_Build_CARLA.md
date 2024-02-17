@@ -66,7 +66,7 @@ python3 --version
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/05604f65-7432-4cf7-8479-542f720fc171)
 
-But, python2 might not be installed during Ubuntu installation, but to be sure, you can check that by rrunning this. 
+But, python2 might not be installed during Ubuntu installation, but to be sure, you can check that by running this. 
 
 ```bash
 python --version
