@@ -62,7 +62,7 @@ https://ubuntu.com/download/alternative-downloads
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2a828f75-bb82-4854-9260-e15cf5514b85)
 
-  13. Check the box of the partition to store Ubuntu (the one that has "ext4" in the name / the second one you made).
+  13. Check the box of the partition to store Ubuntu (the one that has "ext4" in the name / the second one you made), and click on Install Now.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/25b7d62d-b4c4-4261-81e9-ca9db9a8d9d0)
 
