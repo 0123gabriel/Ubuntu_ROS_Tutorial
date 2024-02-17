@@ -1,6 +1,6 @@
 # Tutorial to install CARLA 0.9.15 version to work with Pyhton 2.7.17 in Ubuntu 18.04
 
-To install CARLA you have 2 methods, this one is to use CARLA maps and vehicles that come with the installation. If you want to create your own maps or use uour own vehicles, you will need to watch the other tutorial.
+To install CARLA you have 2 methods, this one is to use CARLA maps and vehicles that come with the installation. If you want to create your own maps or use your own vehicles, you will need to watch the other tutorial.
 
 For documentation you can visit CARLA website (https://carla.readthedocs.io/en/latest/). 
 
