@@ -144,7 +144,7 @@ pip3 install --upgrade pip
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/144f3d1b-a882-428e-a009-0b442f1d5c5c)
 
-* ***CARLA software required:*** CARLA requires some prevoius software installed in your computer. To have them, copy all of the below commands at once, and paste them in the terminal, then press enter. 
+* ***CARLA software required:*** CARLA requires some prevoius software installed in your computer. To have them, copy all of the below commands, and paste them in the terminal, then press enter. 
 
 ```bash
 sudo apt-get update &&
@@ -167,7 +167,7 @@ sudo apt-get update
 sudo apt-get install build-essential clang-10 lld-10 g++-7 cmake ninja-build libvulkan1 python python3 python3-dev python3-pip libpng-dev libtiff5-dev libjpeg-dev tzdata sed curl unzip autoconf libtool rsync libxml2-dev git git-lfs
 ```
 
-To run this one, copy all the commands and paste them in the terminal, and press enter. They are going to be executed at once. 
+To run this one, copy all the commands and paste them in the terminal, and press enter.  
 
 ```bash
 sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-10/bin/clang++ 180 &&
@@ -175,7 +175,7 @@ sudo update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-10/bin/cla
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 180
 ```
 
-Then, for all Ubuntu versions, run this commands at once in the terminal.
+Then, for all Ubuntu versions, run this commands in the terminal.
 
 ``` bash
 pip install --user setuptools &&
@@ -184,4 +184,11 @@ pip install --user distro &&
 pip3 install --user distro &&
 pip install --user wheel &&
 pip3 install --user wheel auditwheel
+```
+
+Finally, you may needd this other libraries. Run this all commands.
+
+```bash
+pip install --user pygame numpy &&
+pip3 install --user pygame numpy
 ```
