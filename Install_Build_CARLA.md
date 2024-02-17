@@ -270,4 +270,32 @@ cd ~/UnrealEngine_4.26
 ./Setup.sh && ./GenerateProjectFiles.sh && make
 ```
 
+When the installation is running, a windows could appear asking about Unreal Engine types, select Yes.
+
+4. Open the Editor to check that Unreal Engine has been installed properly, do this with this command.
+
+```bash
+cd ~/UnrealEngine_4.26/Engine/Binaries/Linux && ./UE4Editor
+```
+
+After that command you will see this window, which is while Unreal Engine is initializing. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9743b9ad-f329-4834-bc10-76d3b97840db)
+
+When Unreal Engine is already initialized, you will watch this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c60b9193-a6c4-4abd-a387-20195e7768b2)
+
+
+# Poner el echo shell del tutorial!!!!
+
+# Build CARLA
+
+(Optional) Downloading aria2 with ``` sudo apt-get install aria2 ``` will speed up the following commands.
+
+1. Clone the CARLA repository, to do that, run this command in the terminal.
+
+```bash
+ git clone https://github.com/carla-simulator/carla
+```
 
