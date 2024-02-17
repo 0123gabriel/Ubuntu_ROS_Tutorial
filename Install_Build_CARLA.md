@@ -90,10 +90,59 @@ After the last command you will be asked to install or no Python, please type *Y
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/98511bf0-aba5-4bde-ba67-4c324d1e0e4e)
 
+* ***pip:*** CARLA will need to install some python package, and to do that, you will need the Python Package Installer software, which is abbreviated as pip. There is a pip version for python2, called pip, and another to python3, called pip3. To install this 2 versions of pip, please check if you already have them, by this command.
+
+This for pip (python2)
+```bash
+pip --version
+```
+
+This for pip3 (python3)
+```bash
+pip3 --version
+```
+
+If you do not have anyone, run this to install ***pip**.
+
+```bash
+curl 'https://bootstrap.pypa.io/pip/2.7/get-pip.py' > get-pip.py && sudo python2 get-pip.py
+```
+
+To check your pip verison, run this.
+
+```bash
+pip -V
+```
+
+The output should be something like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/94006f63-9855-4e5e-96f3-8fcdcb272156)
+
+To upgrade pip to the latest version, run this commands. 
+
+```bash
+pip install --upgrade pip
+```
+
+To install ***pip3*** run this.
+
+```bash
+pip install --upgrade pip
+```
+
+To check the pip3 versions, type this.
+
+```bash
+pip3 -V
+```
+
+To upgrade pip3 to the latest version, tun this command.
+
+```bash
+pip3 install --upgrade pip
+```
 
 
-
-CARLA requires Python and pip software. 
 
 CARLA requires some prevoius software installed in your computer. To have them, run the following commands in Terminal. 
 
