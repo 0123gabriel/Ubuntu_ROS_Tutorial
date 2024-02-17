@@ -102,7 +102,7 @@ This for pip3 (python3)
 pip3 --version
 ```
 
-If you already have them, please upgraden and to do that read the third command show below. Bu, if you do not have anyone, run this to install ***pip**.
+If you already have pip, please upgrade it and to do that read the third command show below. But, if you do not have it, run this to install ***pip**.
 
 ```bash
 curl 'https://bootstrap.pypa.io/pip/2.7/get-pip.py' > get-pip.py && sudo python2 get-pip.py
@@ -124,7 +124,7 @@ To upgrade pip to the latest version, run this commands.
 pip install --upgrade pip
 ```
 
-If you already have pip3, upgrade it by running the third command shown below. If you do not have it, to install ***pip3*** run this.
+If you already have pip3, upgrade it by running the third command show below. If you do not have it, to install ***pip3*** run this.
 
 ```bash
 pip install --upgrade pip
