@@ -193,3 +193,22 @@ pip install --user pygame numpy &&
 pip3 install --user pygame numpy
 ```
 
+# Install Unreal Engine
+
+1. This step requieres a GitHub and a Epic Games account. To create a GitHub account, go to this link (https://github.com/) and click on sign up. To create an Epic Games account, use this link (https://www.epicgames.com/site/es-ES/home) and in the right top corner, click on the profile item, next to the Download button, and register yourself. 
+
+2. Then, go to this wwebsite (https://www.unrealengine.com/es-ES) and log in if required.
+3. Go to the profile icon in the right top corner, and a desplegable list will appear, please select Account.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b3555c2c-e264-4507-86d6-2a153a4a51a5)
+
+
+4. In the sidebar, select APPS AND ACCOUNTS, and click on the ACCOUNTS tab.
+5. Click on the Connect button below GitHub icon.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/35e56439-ae88-4315-9a53-08e5a36d51cb)
+
+6. A window will appear, check the box, and the scroll all the way down and click on I AGREE, then click on CONNEcT ACCOUTN.
+7. In the pop-up window, click on Authorize EpicGames button.
+8. Few seconds later, you will recieve to your GitHub registered mail, click on Join @EpicGames button, and the again in Join Epic Games button. 
+
