@@ -230,7 +230,7 @@ remote: Support for password authentication was removed on August 13, 2021.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2226d99f-4c08-4623-852d-4286c344edb4)
 
-### ---------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------------
 ### Solve for the last error
 
 1. You have to open your GitHub account, go to settings (clicking on the right top corner, and looking for settings option).
@@ -255,7 +255,7 @@ git config -l
 
 With the last one, you will see your name, and email set. 
 
-### ---------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------------
 
 Now, run again the command in step one, you will be asked for your GitHub username, and the for your password. In the password paste your Personal Acces Token. 
 2. Go to the directory where you cloned the repository, by running this. 
