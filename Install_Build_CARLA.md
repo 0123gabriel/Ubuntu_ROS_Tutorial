@@ -186,9 +186,10 @@ pip install --user wheel &&
 pip3 install --user wheel auditwheel
 ```
 
-Finally, you may needd this other libraries. Run this all commands.
+Finally, you may need this other libraries. Run this all commands.
 
 ```bash
 pip install --user pygame numpy &&
 pip3 install --user pygame numpy
 ```
+
