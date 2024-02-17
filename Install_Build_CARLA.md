@@ -127,7 +127,7 @@ pip install --upgrade pip
 If you already have pip3, upgrade it by running the third command show below. If you do not have it, to install ***pip3*** run this. You might be asked to type *Y* to install it, please do it and press enter. 
 
 ```bash
-pip install --upgrade pip
+sudo apt install python3-pip
 ```
 
 To check the pip3 versions, type this. and the output should be the one show below.
@@ -136,15 +136,13 @@ To check the pip3 versions, type this. and the output should be the one show bel
 pip3 -V
 ```
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/144f3d1b-a882-428e-a009-0b442f1d5c5c)
-
 To upgrade pip3 to the latest version, tun this command.
 
 ```bash
 pip3 install --upgrade pip
 ```
 
-
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/144f3d1b-a882-428e-a009-0b442f1d5c5c)
 
 
 CARLA requires some prevoius software installed in your computer. To have them, run the following commands in Terminal. 
