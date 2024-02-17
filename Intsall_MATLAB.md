@@ -48,10 +48,11 @@ This tutorial assumes your university/college has an educationanl license for th
 
   20. In the OPTIONS section check the box and do not change anything. Click on Next.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2c40d9ce-94b1-4bf9-ba76-fb1cb413cc2b)
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/633626ea-9a74-405d-948e-8d9ce197aaae)
 
   21. In the CONFIRMATION section, you will see the space MATLAB files will occupy in your computer, and click on Begin Install.
   22. Finally, click on close and to execute MATLAB you have to open a Terminal, type "matlab" and press enter. 
 
- ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2c40d9ce-94b1-4bf9-ba76-fb1cb413cc2b)
+ 
 
