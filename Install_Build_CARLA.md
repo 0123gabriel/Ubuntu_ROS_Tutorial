@@ -153,4 +153,35 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test &&
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add
 ```
 
+Based on your Ubuntu version, run the commands in Build CARLA website (https://carla.readthedocs.io/en/latest/build_linux/). Here I am using Ubuntu 22.04, so the commands below are the ones I need. 
 
+```bash
+sudo apt-add-repository "deb http://archive.ubuntu.com/ubuntu focal main universe"sudo apt-add-repository "deb http://archive.ubuntu.com/ubuntu focal main universe"
+```
+
+```bash
+sudo apt-get update
+```
+
+```bash
+sudo apt-get install build-essential clang-10 lld-10 g++-7 cmake ninja-build libvulkan1 python python3 python3-dev python3-pip libpng-dev libtiff5-dev libjpeg-dev tzdata sed curl unzip autoconf libtool rsync libxml2-dev git git-lfs
+```
+
+To run this one, copy all the commands and paste them in the terminal, and press enter. They are going to be executed at once. 
+
+```bash
+sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-10/bin/clang++ 180 &&
+sudo update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-10/bin/clang 180 &&
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 180
+```
+
+Then, for all Ubuntu versions, run this commands at once in the terminal.
+
+``` bash
+pip install --user setuptools &&
+pip3 install --user -Iv setuptools==47.3.1 &&
+pip install --user distro &&
+pip3 install --user distro &&
+pip install --user wheel &&
+pip3 install --user wheel auditwheel
+```
