@@ -193,7 +193,9 @@ pip install --user pygame numpy &&
 pip3 install --user pygame numpy
 ```
 
-# Install Unreal Engine
+# Unreal Engine Installation
+
+## Connecting GitHub and Epic Games accounts to download Unreal Engine
 
 1. This step requieres a GitHub and a Epic Games account. To create a GitHub account, go to this link (https://github.com/) and click on sign up. To create an Epic Games account, use this link (https://www.epicgames.com/site/es-ES/home) and in the right top corner, click on the profile item, next to the Download button, and register yourself. 
 
@@ -211,4 +213,13 @@ pip3 install --user pygame numpy
 6. A window will appear, check the box, and the scroll all the way down and click on I AGREE, then click on CONNEcT ACCOUTN.
 7. In the pop-up window, click on Authorize EpicGames button.
 8. Few seconds later, you will recieve to your GitHub registered mail, click on Join @EpicGames button, and then, again, in Join Epic Games button. 
+
+## Installing Unreal Engine
+
+1. Run the following command.
+
+```bash
+git clone --depth 1 -b carla https://github.com/CarlaUnreal/UnrealEngine.git ~/UnrealEngine_4.26
+```
+
 
