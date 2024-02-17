@@ -66,9 +66,8 @@ https://ubuntu.com/download/alternative-downloads
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/25b7d62d-b4c4-4261-81e9-ca9db9a8d9d0)
 
-  15. Click on Continue in the pop up window. 
+  15. Click Continue in the pop up window. 
 
-![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/15d7052f-0290-4cc3-9fe6-b40c3906c357)
 ![image](https://github.com/nabihandres/COOP_tutorials/assets/108648272/44e64665-8e57-4628-9c6e-13e56b46daa2)
 
   12. You will need to select your country and time zone, and complete the blank spaces. After that, click on Continue and Ubuntu will installed.
