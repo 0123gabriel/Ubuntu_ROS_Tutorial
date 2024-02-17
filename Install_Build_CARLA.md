@@ -1,3 +1,3 @@
 # Tutorial to Build CARLA in Ubuntu 22.04. 
 
-To install CARLa you have 2 methods. The first one is a 
+This method to install CARLA will let you create and try your own maps and vehicles. If you are OK with predetermined maps and vehicles, you should go to the other CARLA tutorial. 
