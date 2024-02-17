@@ -144,22 +144,12 @@ pip3 install --upgrade pip
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/144f3d1b-a882-428e-a009-0b442f1d5c5c)
 
-
-CARLA requires some prevoius software installed in your computer. To have them, run the following commands in Terminal. 
+* ***CARLA software required:*** CARLA requires some prevoius software installed in your computer. To have them, copy all of the below commands, and paste them in ther terminal, then press enter. 
 
 ```bash
 sudo apt-get update &&
-```
-
-```bash
 sudo apt-get install wget software-properties-common &&
-```
-
-```bash
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test &&
-```
-
-```bash
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add
 ```
 
