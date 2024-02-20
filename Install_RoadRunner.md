@@ -174,7 +174,3 @@ After that, you will have RoadRunner running correctly, and it should look like 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/791ca4fe-0855-4a97-8e53-955617bae588)
 
-
-
-
-
