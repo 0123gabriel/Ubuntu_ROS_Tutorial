@@ -317,4 +317,24 @@ All the commands after the last one, must be executed in CARLA root folder, whic
 ./Update.sh
 ```
 
-3. 
+3. Then in the CARLA root directory, run the following command.
+
+```bash
+cd PythonAPI/carla/dist
+```
+
+4. Then, type ``` ls ```, and you will see 2 files. One that has a .eff format and the other one with a .whl format. The .egg file is for CARLA versions prior 0.9.12, and the .whl is for versions higher. Also, .whl format is more current, and have better features than .egg files. Then, to install the .whl format, you have to run the following command. But, before running it, I recommend to create a virtual environment to install it.
+
+```bash
+# Python 3
+pip3 install <path/to/wheel>.whl
+
+# Python 2
+pip install <path/to/wheel>.whl
+```
+
+5. To compile the server, run this command.
+
+```bash
+make launch
+```
