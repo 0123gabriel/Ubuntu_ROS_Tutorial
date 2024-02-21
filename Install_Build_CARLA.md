@@ -309,7 +309,7 @@ Build CARLA will requiere to open Files app, and click on Home. Then open this d
  git clone https://github.com/carla-simulator/carla
 ```
 
-All the commands after the last one, must be executed in CARLA root folder, which should be the one that contains Download, Pictures, etc folders. 
+All the commands after the last one, must be executed in CARLA root folder, which should be the one that was created in the same directory where Download, Pictures, etc folders are, and it should be named as ``` carla ```.
 
 2. Update to the latest CARLA version, which, at the time of running this tutorial, is 0.9.15.
 
