@@ -216,6 +216,8 @@ pip3 install --user pygame numpy
 
 ## Installing Unreal Engine
 
+Installing Unreal Engine will requiere to open Files app, and click on Home. Then open this directory on the Terminal by right click in any part except over the folders, and click on Open in the Terminal. 
+
 1. Run the following command to clone the content for CARLA's fork of Unreal Engine 4.26 to your local computer.
 
 ```bash
@@ -286,16 +288,33 @@ When Unreal Engine is already initialized, you will watch this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c60b9193-a6c4-4abd-a387-20195e7768b2)
 
+5. Close Unreal Engine by clicking the X in the top right corner.
+6. Run the following command in the Terminal.
 
-# Poner el echo shell del tutorial!!!!
+```bash
+echo "export UE4_ROOT=~/UnrealEngine_4.26" >> ~/.bashrc
+```
+
+The last command will add the the directory of Unreal Engine to the .bashrc file, which will help you with the next part.
 
 # Build CARLA
 
 (Optional) Downloading aria2 with ``` sudo apt-get install aria2 ``` will speed up the following commands.
 
-1. Clone the CARLA repository, to do that, run this command in the terminal.
+Build CARLA will requiere to open Files app, and click on Home. Then open this directory on the Terminal by right click in any part except over the folders, and click on Open in the Terminal. 
+
+1. Clone the CARLA repository, to do that, run this command in the terminal. Once the command is executed, CARLA files will be located in the directory you were in when the ``` git clone ``` command was applied. 
 
 ```bash
  git clone https://github.com/carla-simulator/carla
 ```
 
+All the commands after the last one, must be executed in CARLA root folder, which should be the one that contains Download, Pictures, etc folders. 
+
+2. Update to the latest CARLA version, which, at the time of running this tutorial, is 0.9.15.
+
+```bash
+./Update.sh
+```
+
+3. 
