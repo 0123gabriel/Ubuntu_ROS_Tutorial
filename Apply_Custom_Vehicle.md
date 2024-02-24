@@ -1,6 +1,6 @@
 # Using a customed vehicle with CARLA.
 
-This task will need some software, the first one is Blender and the other one is an Add-on for Blender which let us use the customed vehicle. 
+This task will need some software, the first one is Blender and the other one is an Add-on for Blender which let us use the customed vehicle. This Add-on is called: Vehicle Rigging Blender Addon. 
 
 1. To install Blender, go to this website (https://www.blender.org/) and click on Download button.
 
@@ -24,8 +24,23 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/52727a96-940a-4f0f-a300-6db89cd4b7ef)
 
-6. The Add-on can be downloaded from this website (https://continuebreak.com/creations/ue4-vehicle-rigging-addon-blender/). You just need to click on the the first link where says Download Here.
+6. To install the Add-on, first go to its website (https://continuebreak.com/creations/ue4-vehicle-rigging-addon-blender/). To download it, you just need to click on the the first link where says Download Here.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9fed2d82-0678-4df3-8105-4e10777820e3)
 
-7. 
+7. To add that new addon to Blender, click on the Edit tab, and then, at the end of the desplegable, click on Preferences.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5f8ca189-bd08-447e-aed4-fef8f41ed4c7)
+
+8. Click on the Add-ons option in the sidebar, and the click on the Install button in the right top corner. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a1f0973f-67ff-427d-916c-7daa4bd109d2)
+
+9. Go to the directory where the Add-on was downloaded, and doble click on it.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9cc8e125-1313-4c2f-b3ae-0f3beb05ce2f)
+
+10. 
+
+
+
