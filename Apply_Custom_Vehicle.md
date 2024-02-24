@@ -1,4 +1,4 @@
-# Using a customed vehicle with CARLA.
+# Using a customed vehicle with CARLA
 
 This task will need some software, the first one is Blender and the other one is an Add-on for Blender which let us use the customed vehicle. This Add-on is called: Vehicle Rigging Blender Addon. 
 
