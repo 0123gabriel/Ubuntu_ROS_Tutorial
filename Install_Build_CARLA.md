@@ -50,7 +50,7 @@ The output should something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/09abc7ca-2489-439e-bb0b-7d3d9ee774b7)
 
-If when you run the previous command, you get a message saying that Ubuntu do not recognizes that command, and recommend you to instal net-tools, do it by this command. 
+If when you run the previous command, you get a message saying that Ubuntu do not recognizes that command, and it will recommend you to install net-tools, do it by this command. 
 
 ```bash
 sudo apt-get install net-tools
