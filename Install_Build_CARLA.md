@@ -104,7 +104,7 @@ This for pip3 (python3)
 pip3 --version
 ```
 
-If you already have pip, please upgrade it and to do that read the third command show below. But, if you do not have it, run this to install **pip**. You might be asked to type *Y* to install it, please do it and press enter. 
+If you already have pip, please upgrade it and to do that read the third command from here. But, if you do not have it, run this to install **pip**. You might be asked to type *Y* to install it, please do it and press enter. 
 
 ```bash
 curl 'https://bootstrap.pypa.io/pip/2.7/get-pip.py' > get-pip.py && sudo python2 get-pip.py
