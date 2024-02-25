@@ -261,6 +261,7 @@ With the last one, you will see your name, and email setted.
 ### -------------------------------------------------------------------------------------------------------------------------------------
 
 Now, run again the command in step one, you will be asked for your GitHub username, and then for your password. In the password paste your Personal Acces Token. 
+
 2. Go to the directory where you cloned the repository, by running this. 
 
 ```bash
@@ -273,7 +274,7 @@ cd ~/UnrealEngine_4.26
 ./Setup.sh && ./GenerateProjectFiles.sh && make
 ```
 
-When the installation is running, a windows could appear asking about Unreal Engine types, select Yes.
+When the installation is running, a window could appear asking about Unreal Engine types, select Yes.
 
 4. Open the Editor to check that Unreal Engine has been installed properly, do this with this command.
 
