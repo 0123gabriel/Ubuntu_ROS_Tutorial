@@ -126,7 +126,7 @@ To upgrade pip to the latest version, run this commands.
 pip install --upgrade pip
 ```
 
-If you already have pip3, upgrade it by running the third command show below. If you do not have it, to install ***pip3*** run this. You might be asked to type *Y* to install it, please do it and press enter. 
+If you already have pip3, upgrade it by running the third command from here. If you do not have it, to install ***pip3*** run this. You might be asked to type *Y* to install it, please do it and press enter. 
 
 ```bash
 sudo apt install python3-pip
