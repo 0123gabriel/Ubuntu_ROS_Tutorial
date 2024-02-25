@@ -369,6 +369,8 @@ To play with the simulation you can generate vehicles by this bash commands in o
 cd carla/PythonAPI/examples
 ```
 
+The following command might give some problems that I did not face because I used the virtual environment way, so I am sorry for that, but solve them should not take that much time.  
+
 ```bash
 python3 -m pip install -r requirements.txt
 ```
