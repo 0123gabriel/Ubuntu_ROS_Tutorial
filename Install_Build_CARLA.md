@@ -323,7 +323,7 @@ All the commands after the last one, must be executed in CARLA root folder, whic
 cd PythonAPI/carla/dist
 ```
 
-4. Then, type ``` ls ```, and you will see 2 files. One that has a ``` .egg ``` format and the other one with a ``` .whl ``` format. The ``` .egg ``` file is for CARLA versions prior 0.9.12, and the ``` .whl ``` is for higher versions. Also, ``` .whl ``` format is more current, and have better features than ``` .egg ``` files. Then, to install the ``` .whl ``` format, you have to run the following command. But, before running it, I recommend to create a virtual environment to install it, if you want to do it, read the **Virtual Environment Usage** section. 
+4. Then, type ``` ls ```, and you will see 2 files. One that has a ``` .egg ``` format and the other one with a ``` .whl ``` format. The ``` .egg ``` file is for CARLA versions prior 0.9.12, and the ``` .whl ``` is for higher versions. Also, ``` .whl ``` format is more current, and have better features than ``` .egg ``` files. Then, to install the ``` .whl ``` format, you have to run the following command. But, before running it, I recommend to create a virtual environment to install it, if you want to do it, read the **Virtual Environment Usage** section and the come back and continue from the step number 5. 
 
 The path to the ``` .whl ``` file, should look like this:
 
@@ -351,15 +351,63 @@ make launch
 
 Once you have executed the last command, Unreal Editor will open. 
 
-# Imagen del unreal editor
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/bcf2b901-377d-40c8-a974-686c8aba2cda)
 
-6. The ``` make ``` command compiles different program pieces and builds a final executable, so you have to run it once, and then to avoid building those executables again, and use Unreal Editor faster, you just need to run this command.
+6. The ``` make ``` command compiles different program pieces and builds some final executables, so you have to run it once, and then to avoid building those executables again, and use Unreal Editor faster, you just need to run this command.
 
 ```bash
 make launch-only
 ```
 
-As was said, this will open Unreal Editor and you will be able to run the simulation with the Play button located in the upper part, and to stopped it with the Stop button. Also, you will can to edit the simulation, and create your own map which is explained in other tutorials. 
+As was said, this will open Unreal Editor and you will be able to run the simulation with the Play button located in the upper part, and to stopped it with the Stop button. Also, you can edit the simulation, and create your own map which is explained in another tutorial. The following video shows how navigate in the map is like, and to do that you have to use the left click to move the camera, and ``` WASD ``` keyboard letters to move yourself. 
+
+# video no traffic
+
+To play with the simulation you can generate vehicles by this bash commands in onther Terminal. 
+
+```bash
+cd carla/PythonAPI/examples
+```
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+```bash
+python3 generate_traffic.py
+```
+
+You will see comething like this.
+
+# video with traffic
+
+You can also play with the weather, by running this commands in another Terminal. 
+
+```bash
+cd carla/PythonAPI/examples
+```
+
+```bash
+python3 dynamic_weather.py
+```
+
+And finally, if you want to drive a car, type this in another Terminal. Once you do that, in the Terminal will appear how you can use some keyboard letters to control the car, and see more option related with sensors, autonomous navigation, etc. 
+
+```bash
+cd carla/PythonAPI/examples
+```
+
+```bash
+python3 manual_control.py
+```
+
+This are the controls:
+
+![Screenshot from 2024-02-24 21-12-09](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/05cf3055-e60f-418d-9b13-cce25bd14f85)
+
+In this video I am playing. 
+
+# video de manejar un carro
 
 ## Virtual Environment Usage
 
