@@ -17,7 +17,7 @@ After that, you will know your Ubuntu version.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ace9d996-025a-487d-ae78-3cde43e704b2)
 
-* ***130 GB disk space:*** CARLA will take aorund 30GB and Unreal Engine around 91GB, so you will need 130GB approximately taking into account extra programs to use this simulator software. To check your disk free-space, runt his command.
+* ***130 GB disk space:*** CARLA will take aorund 30GB and Unreal Engine around 91GB, so you will need 130GB approximately taking into account extra programs to use this simulation software. To check your disk free-space, runt his command.
 
 ```bash
 df -h /home
