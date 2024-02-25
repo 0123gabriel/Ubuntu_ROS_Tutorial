@@ -311,7 +311,7 @@ Build CARLA will requiere to open Files app, and click on Home. Then open this d
 
 All the commands after the last one, must be executed in CARLA root folder, which should be the one that was created in the same directory where Download, Pictures, etc folders are, and it should be named as ``` carla ```.
 
-2. Update to the latest CARLA version, which, at the time of running this tutorial, is 0.9.15.
+2. Update to the latest CARLA version, which, at the time of running this tutorial, is 0.9.15. This might take 1 or 2 hours. 
 
 ```bash
 ./Update.sh
@@ -323,18 +323,34 @@ All the commands after the last one, must be executed in CARLA root folder, whic
 cd PythonAPI/carla/dist
 ```
 
-4. Then, type ``` ls ```, and you will see 2 files. One that has a .eff format and the other one with a .whl format. The .egg file is for CARLA versions prior 0.9.12, and the .whl is for versions higher. Also, .whl format is more current, and have better features than .egg files. Then, to install the .whl format, you have to run the following command. But, before running it, I recommend to create a virtual environment to install it.
+4. Then, type ``` ls ```, and you will see 2 files. One that has a ``` .egg ``` format and the other one with a ``` .whl ``` format. The ``` .egg ``` file is for CARLA versions prior 0.9.12, and the ``` .whl ``` is for higher versions. Also, ``` .whl ``` format is more current, and have better features than ``` .egg ``` files. Then, to install the ``` .whl ``` format, you have to run the following command. But, before running it, I recommend to create a virtual environment to install it, if you want to do it, read the **Virtual Environment Usage** section. 
+
+The path to the ``` .whl ``` file, should look like this:
 
 ```bash
-# Python 3
-pip3 install <path/to/wheel>.whl
+carla/PythonAPI/carla/dist
+```
 
-# Python 2
+To install the ``` .whl ``` with python3 run this command
+
+```bash
+pip3 install <path/to/wheel>.whl
+```
+
+To install the ``` .whl ``` with python2 run this command
+
+```bash
 pip install <path/to/wheel>.whl
 ```
 
-5. To compile the server, run this command.
+5. To compile the server, run this command. This might take 1 hour depending on your computer hardware.
 
 ```bash
 make launch
 ```
+
+Once you have executed the last command, Unreal Editor will open. 
+
+## Virtual Environment Usage
+
+
