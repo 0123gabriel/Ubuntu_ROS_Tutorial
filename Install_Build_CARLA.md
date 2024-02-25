@@ -367,7 +367,7 @@ Once you have executed the last command, Unreal Editor will open.
 make launch-only
 ```
 
-As was said, this will open Unreal Editor and you will be able to run the simulation with the Play button located in the upper part, and to stopped it with the Stop button. Also, you can edit the simulation, and create your own map which is explained in another tutorial. The following video shows how navigate in the map is like, and to do that you have to use the left click to move the camera, and ``` WASD ``` keyboard letters to move yourself. 
+As was said, this will open Unreal Editor and you will be able to run the simulation with the Play button located in the upper part, and to stopped it with the Stop button, which should appear where the Play button was before being pressed. Also, you can edit the simulation, and create your own map which is explained in another tutorial. The following video shows how navigate in the map is like, and to do that you have to use the left click to move the camera, and ``` WASD ``` keyboard letters to move yourself. 
 
 https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d21bab78-6606-4cfc-aa84-e3e0e8bdf3e2
 
