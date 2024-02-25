@@ -240,7 +240,7 @@ remote: Support for password authentication was removed on August 13, 2021.
 2. In the sidebar, click on Developer settings.
 3. In the sidebar, click on Personal access tokens and click on Tokens (classic).
 4. Then click on Generate new token button (right side) and select Generate new token (classic), and enter your password.
-5. Give a name for the token, it should be related with the reason your are creating it, then select a amount of days for the token expiration, and select the tasks you are going to do with it, o just select all of them.
+5. Give a name for the token, it should be related with the reason your are creating it, then select a amount of days for the token expiration (I recommend 30 days), and select the tasks you are going to do with it, o just select all of them (I recommend this one).
 6. Click on Generate token, and copy your token and save it in a place you will remember, because you will not see your token again.
 7. Run this commands in the terminal.
 
