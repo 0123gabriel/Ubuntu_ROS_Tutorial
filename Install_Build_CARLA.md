@@ -361,7 +361,7 @@ make launch-only
 
 As was said, this will open Unreal Editor and you will be able to run the simulation with the Play button located in the upper part, and to stopped it with the Stop button. Also, you can edit the simulation, and create your own map which is explained in another tutorial. The following video shows how navigate in the map is like, and to do that you have to use the left click to move the camera, and ``` WASD ``` keyboard letters to move yourself. 
 
-# video no traffic
+https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d21bab78-6606-4cfc-aa84-e3e0e8bdf3e2
 
 To play with the simulation you can generate vehicles by this bash commands in onther Terminal. 
 
@@ -379,7 +379,7 @@ python3 generate_traffic.py
 
 You will see comething like this.
 
-# video with traffic
+https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f6114b5d-16e8-4835-95b8-e7e52c307adb
 
 You can also play with the weather, by running this commands in another Terminal. 
 
@@ -407,7 +407,7 @@ This are the controls:
 
 In this video I am playing. 
 
-# video de manejar un carro
+https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ba2354e2-601d-4548-958e-26fc7026d82b
 
 ## Virtual Environment Usage
 
