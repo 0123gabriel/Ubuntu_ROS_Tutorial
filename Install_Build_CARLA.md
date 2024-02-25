@@ -537,4 +537,4 @@ To see what packages your conda virtual environment has, type ``` conda list ```
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/baffc291-c7b4-43bf-a4f5-41fb4ec72267)
 
-Finally, do not forget to deactivate the virtual environment you are using once you are done with it. 
+Finally, do not forget to deactivate the virtual environment you are using, once you are done with it. 
