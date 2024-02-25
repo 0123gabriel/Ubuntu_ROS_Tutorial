@@ -58,7 +58,7 @@ sudo apt-get install net-tools
 
 ### Software requirements
 
-* ***Python:*** You will need to have python2 and python3 installed in your computer. Most of the Ubuntu OS come with python3, and you can check that by running this command
+* ***Python:*** You will need to have python2 and python3 installed in your computer. But, if you are using virtual environments, that would work for this tutorial. To check about virtual environments, scroll all the way down and you will see a small explanation about them, and also how to install an app to manage virtual environments; you can also follow the tutorial and make the virtual environments later, I would recommend to follow the tutorial. Most of the Ubuntu OS come with python3, and you can check that by running this command
 
 ```bash
 python3 --version
