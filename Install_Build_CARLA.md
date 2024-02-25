@@ -422,7 +422,7 @@ To install any library you must run this command.
 conda install {Name of the Python package}
 ```
 
-For example, to install the ``` .whl ``` file of CARLA, you will type this. 
+For example:
 
 ```bash
 conda install future
@@ -473,17 +473,6 @@ sudo apt-get update &&
 sudo apt-get install wget software-properties-common &&
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test &&
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add
-```
-
-(Optional if you already execute ``` make PythonAPI ``` command) And this Python dependancies too. 
-
-```bash
-pip install setuptools &&
-pip3 install -Iv setuptools==47.3.1 &&
-pip install distro &&
-pip3 install distro &&
-pip install wheel &&
-pip3 install wheel auditwheel
 ```
 
 To see what packages your conda virtual environment has, type ``` conda list ```, you will see the carla package after this. 
