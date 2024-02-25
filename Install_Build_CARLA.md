@@ -514,7 +514,7 @@ conda install open3d
 conda install pillow
 ```
 
-To instal pygame, you have to run this 2 commands. 
+To install pygame, you have to run this 2 commands. 
 
 ```bash
 conda config --append channels conda-forge
