@@ -133,10 +133,10 @@ sudo mv {original name of the file} {original name of the file}.old
 
 The files to be renamed are:
 
- *libdrm.so.2
- *libXi.so.6
- *libX11.so.6
- *libXau.so.6
+ -libdrm.so.2
+ -libXi.so.6
+ -libX11.so.6
+ -libXau.so.6
  *libXext.so.6
  *libXdmcp.so.6
  *libXfixes.so.3
