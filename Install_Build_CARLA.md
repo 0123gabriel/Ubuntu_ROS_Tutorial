@@ -470,7 +470,7 @@ To deactivate any virtual environment:
 conda deactivate
 ```
 
-Finally, in your ```/home/{username} ``` directory you will see that a new folder appeared with a name related to *anaconda*. Inside that folder, there is many others, the one with the name *envs* will contain the virtual environments you will create.
+Finally, in your ```/home/{username} ``` directory you will see that a new folder appeared with a name related to *anaconda*. Inside that folder, there are many others, the one with the name *envs* will contain the virtual environments you will create.
 
 ## Installing required libraries in the virtual environments
 
