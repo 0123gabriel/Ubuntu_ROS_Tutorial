@@ -392,7 +392,7 @@ bash Anaconda3-2023.09-0-Linux-x86_64.sh
 conda create -n {virtual Environment name} {python version if neededd}
 ```
 
-An example is show below.
+An example is shown below.
 
 ```bash
 conda create -n my_py3_env python=3.8
