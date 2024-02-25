@@ -371,7 +371,7 @@ As was said, this will open Unreal Editor and you will be able to run the simula
 
 https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d21bab78-6606-4cfc-aa84-e3e0e8bdf3e2
 
-To play with the simulation you can generate vehicles by this bash commands in onther Terminal. 
+To play with the simulation you can generate vehicles by this bash commands in another Terminal. 
 
 ```bash
 cd carla/PythonAPI/examples
