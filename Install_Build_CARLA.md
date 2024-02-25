@@ -351,6 +351,143 @@ make launch
 
 Once you have executed the last command, Unreal Editor will open. 
 
+# Imagen del unreal editor
+
+6. The ``` make ``` command compiles different program pieces and builds a final executable, so you have to run it once, and then to avoid building those executables again, and use Unreal Editor faster, you just need to run this command.
+
+```bash
+make launch-only
+```
+
+As was said, this will open Unreal Editor and you will be able to run the simulation with the Play button located in the upper part, and to stopped it with the Stop button. Also, you will can to edit the simulation, and create your own map which is explained in other tutorials. 
+
 ## Virtual Environment Usage
 
+A virtual environment is a space where you can have an specific python version isolated. Virtual environments are strongly recommended to use with every python project you are developing, and it is useful because you will not have any problems with previous installed libraries. To use virtual environments you have 2 options:
 
+1. **Python virtual environment packages:** This package is called ``` virtualenv ``` for python2 and ``` venv ``` for python3.
+2. **Anaconda:** Anaconda is a manager of python virtual environments, and in this tutorial I will use this option because it is the most used across the industry and academy. And, after using Python virtual environment packages and anaconda, I think Anaconda is easier.
+
+## Installing Anaconda
+
+1. Go to the following link (https://www.anaconda.com/download) and click on the Download button.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2d3dcf8d-3348-4efb-ab07-89fdd8532872)
+
+2. Then, in the terminal run this.
+
+```bash
+bash Anaconda3-2023.09-0-Linux-x86_64.sh
+```
+
+3. You will be asked to press Enter to install it, and then the Usage Agreement will appear, press Enter until it ends. And for every question made during the installation process accept it.
+
+4. Once it is done, you will see that your terminal looks like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/548be4d0-56c0-44a3-b8ae-c1590f67a1e5)
+
+5. The *(base)* at the beginning of my username means that we are working in the *base virtual environment*. To create another, you have tp type this.
+
+```bash
+conda create -n {virtual Environment name} {python version if neededd}
+```
+
+An example is show below.
+
+```bash
+conda create -n my_py3_env python=3.8
+```
+
+6. Then your new virtual environment will be created, and probably the *(base)* at the beginning will change to your virtual environment name. For future activation and deactivation of the virtual environments, run this commands.
+
+To activate any virtual environment:
+
+```bash
+conda activate {Vritual Environment name}
+```
+
+To deactivate any virtual environment:
+
+```bash
+conda deactivate
+```
+
+Finally, in your ```/home/{username} ``` directory you will see that a new folder appeared with a name related to *anaconda*. Inside that folder, there is many others, the one with the name *envs* will contain the virtual environments you will create.
+
+## Installing required libraries in the virtual environments
+
+To install any library you must run this command.
+
+```bash
+conda install {Name of the Python package}
+```
+
+For example, to install the ``` .whl ``` file of CARLA, you will type this. 
+
+```bash
+conda install future
+```
+
+You can also use pip2 or pip3 inside conda virtual environments. The following example lets you install CARLA python API, so you must run it. 
+
+```bash
+pip3 install /home/{username}/carla/PythonAPI/carla/dist/{name of the python API}.whl
+```
+
+Finally, to have all the libraries to run some CARLA examples you will have to run this commands in the Terminal. 
+
+```bash
+conda install future
+```
+
+```bash
+conda install numpy
+```
+
+```bash
+conda install matplotlib
+```
+
+```bash
+conda install open3d
+```
+
+```bash
+conda install pillow
+```
+
+To instal pygame, you have to run this 2 commands. 
+
+```bash
+conda config --append channels conda-forge
+```
+
+```bash
+conda install pygame
+```
+
+And also run this as well. 
+
+```bash
+sudo apt-get update &&
+sudo apt-get install wget software-properties-common &&
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test &&
+wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add
+```
+
+(Optional if you already execute ``` make PythonAPI ``` command) And this Python dependancies too. 
+
+```bash
+pip install setuptools &&
+pip3 install -Iv setuptools==47.3.1 &&
+pip install distro &&
+pip3 install distro &&
+pip install wheel &&
+pip3 install wheel auditwheel
+```
+
+To see what packages your conda virtual environment has, type ``` conda list ```, you will see the carla package after this. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/baffc291-c7b4-43bf-a4f5-41fb4ec72267)
+
+Finally, do not forget to deactivate the virtual environment you are using once you are done with it. 
