@@ -211,7 +211,7 @@ pip3 install --user pygame numpy
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/35e56439-ae88-4315-9a53-08e5a36d51cb)
 
-6. A window will appear, check the box, and the scroll all the way down and click on I AGREE, then click on CONNEcT ACCOUTN.
+6. A window will appear, check the box, and the scroll all the way down and click on I AGREE, then click on CONNECT ACCOUNT.
 7. In the pop-up window, click on Authorize EpicGames button.
 8. Few seconds later, you will recieve to your GitHub registered mail, click on Join @EpicGames button, and then, again, in Join Epic Games button. 
 
