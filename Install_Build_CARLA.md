@@ -407,7 +407,7 @@ This are the controls:
 
 ![Screenshot from 2024-02-24 21-12-09](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/05cf3055-e60f-418d-9b13-cce25bd14f85)
 
-In this video I am playing. 
+In this video I am playing. It goes a bit slow but it is beacuse I was recording my screen.
 
 https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ba2354e2-601d-4548-958e-26fc7026d82b
 
