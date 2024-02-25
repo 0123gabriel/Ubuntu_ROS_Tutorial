@@ -386,7 +386,7 @@ bash Anaconda3-2023.09-0-Linux-x86_64.sh
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/548be4d0-56c0-44a3-b8ae-c1590f67a1e5)
 
-5. The *(base)* at the beginning of my username means that we are working in the *base virtual environment*. To create another, you have tp type this.
+5. The *(base)* at the beginning of my username means that we are working in the *base virtual environment*. To create another, you have to type this.
 
 ```bash
 conda create -n {virtual Environment name} {python version if neededd}
