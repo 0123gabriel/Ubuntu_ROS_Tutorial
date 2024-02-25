@@ -311,7 +311,7 @@ Build CARLA will requiere to open Files app, and click on Home. Then open this d
  git clone https://github.com/carla-simulator/carla
 ```
 
-All the commands after the last one, must be executed in CARLA root folder, which should be the one that was created in the same directory where Download, Pictures, etc folders are, and it should be named as ``` carla ```.
+All the commands after the last one, must be executed in CARLA root folder, which should be the one that was created in the same directory where Download, Pictures, etc folders are, and it should had named as ``` carla ```.
 
 2. Update to the latest CARLA version, which, at the time of running this tutorial, is 0.9.15. This might take 1 or 2 hours. 
 
@@ -319,13 +319,19 @@ All the commands after the last one, must be executed in CARLA root folder, whic
 ./Update.sh
 ```
 
-3. Then in the CARLA root directory, run the following command.
+3. Then, compile the Python API client, which has to be done once.
+
+```bash
+make PythonAPI
+```
+
+4. Then in the CARLA root directory, run the following command.
 
 ```bash
 cd PythonAPI/carla/dist
 ```
 
-4. Then, type ``` ls ```, and you will see 2 files. One that has a ``` .egg ``` format and the other one with a ``` .whl ``` format. The ``` .egg ``` file is for CARLA versions prior 0.9.12, and the ``` .whl ``` is for higher versions. Also, ``` .whl ``` format is more current, and have better features than ``` .egg ``` files. Then, to install the ``` .whl ``` format, you have to run the following command. But, before running it, I recommend to create a virtual environment to install it, if you want to do it, read the **Virtual Environment Usage** section and the come back and continue from the step number 5. 
+5. Then, type ``` ls ```, and you will see 2 files. One that has a ``` .egg ``` format and the other one with a ``` .whl ``` format. The ``` .egg ``` file is for CARLA versions prior 0.9.12, and the ``` .whl ``` is for higher versions. Also, ``` .whl ``` format is more current, and have better features than ``` .egg ``` files. Then, to install the ``` .whl ``` format, you have to run the following command. But, before running it, I recommend to create a virtual environment to install it, if you want to do it, read the **Virtual Environment Usage** section and the come back and continue from the step number 5. 
 
 The path to the ``` .whl ``` file, should look like this:
 
@@ -345,7 +351,7 @@ To install the ``` .whl ``` with python2 run this command
 pip install <path/to/wheel>.whl
 ```
 
-5. To compile the server, run this command. This might take 1 hour depending on your computer hardware.
+6. To compile the server, run this command. This might take 1 hour depending on your computer hardware.
 
 ```bash
 make launch
@@ -355,7 +361,7 @@ Once you have executed the last command, Unreal Editor will open.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/bcf2b901-377d-40c8-a974-686c8aba2cda)
 
-6. The ``` make ``` command compiles different program pieces and builds some final executables, so you have to run it once, and then to avoid building those executables again, and use Unreal Editor faster, you just need to run this command.
+7. The ``` make ``` command compiles different program pieces and builds some final executables, so you have to run it once, and then to avoid building those executables again, and use Unreal Editor faster, you just need to run this command.
 
 ```bash
 make launch-only
