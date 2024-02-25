@@ -379,7 +379,7 @@ python3 -m pip install -r requirements.txt
 python3 generate_traffic.py
 ```
 
-You will see comething like this.
+You will see comething like this. Note that I already clicked the Play button in the upper part before recording. 
 
 https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f6114b5d-16e8-4835-95b8-e7e52c307adb
 
