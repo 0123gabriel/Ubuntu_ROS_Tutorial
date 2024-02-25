@@ -204,8 +204,7 @@ pip3 install --user pygame numpy
 2. Then, go to this wwebsite (https://www.unrealengine.com/es-ES) and log in if required.
 3. Go to the profile icon in the right top corner, and a desplegable list will appear, please select Account.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b3555c2c-e264-4507-86d6-2a153a4a51a5)
-
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/07d8572f-8cc2-47c1-b1ef-cc4513e29a52)
 
 4. In the sidebar, select APPS AND ACCOUNTS, and click on the ACCOUNTS tab.
 5. Click on the Connect button below GitHub icon.
