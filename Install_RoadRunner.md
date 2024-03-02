@@ -101,9 +101,15 @@ After that, you will have RoadRunner running correctly, and it should look like 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3abbb311-d276-4f28-ad98-9a832019cd9a)
 
-3. This window will open.
+3. This window will open.  
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c4f76c3f-135f-4a9b-9c9f-f04f2b6684de)
+
+Let's understand some general parts of the application. In the bottom left side, you will see the 2D Editor | Profile section; this tool will let you modify some parameters depending on the part of the road you have selected. For example, in a flat and straight lane, you will see a line representing the road, you can give to this line some downwards and upwards slope by dragging the extreme points, and if you check that zone and see some points in the middle of the line, they will let you bend the road.  
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7104e3fd-c93a-4fc3-a373-422744eaae08)
+
+Next to the last section, you will see the Library Browser which have features you can give to the lanes as the material of the road, some signs, etc. In the right side you will see a black box which has the title Atributes, in this part should appear some aspects you can modify like the distance, some coordinates, etc. Then in the top part, there are the needed tools to creadte and modify the lanes, in the left side you will see three tools, they let you to rotate, and select the axis of one road, and finallly, in the center of the app you have a grid where you can draw your road, and in the top and bottom right corners toy have some tools to change the view of the grid. Now, let's continue creating a new road, so select all the road by clicking and dragging the mouse, and the press Delete. 
 
 4. To create a road, RoadRunner has the Road Plan Tool option activated, so you can right click in any part of the grid, and the a red dot will appear. You can set the dot coordinates to be more accurate.
 
@@ -113,10 +119,34 @@ After that, you will have RoadRunner running correctly, and it should look like 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7a86af04-1185-4d76-a8ac-5760d226c021)
 
-6. After that, you need to delete the lane that is goinf leftwards, to do that 
+6. After that, you need to delete the lane that is going leftwards, to do that click on the Lane Add Tool, click on the lane,and by clicking and dragging create a box that selects all the leftwards lane, and the press Delete.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/338cfdb0-a5aa-4ff4-a9e6-d8ebac0c5c0a)
+
+You will see that when you move the mouse over the lane, some blue lines appear, they let you to repeat some features the road has like the bikeside, etc. 
+
+7. With the process of the sixth step, delete the light gray part of the road.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/18a65106-d543-4505-a625-1546c0dc20c8)
+
+You should end with something like this. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/fba1382f-17b4-46a7-b3ab-43ff79e5caea)
+
+8. The we will change the appearance of the road, so to Delete the yellow lines click on the Lane Marking Tool, and select (following the same process of dragging) the yellow lines, and the Delete. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9d989597-d0f2-4a1c-a0de-70aa3981243c)
+
+You should something like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/02748f51-567e-446d-b8c4-a350f1c2b7b6)
+
+9. Now, let's widen the road by clicking the Lane witdth Tool. Select the road, and in the right side type the desired width, in this case, I tyoed 8 meters.
+
+ ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/67c707c0-86ac-4fea-bb41-37e1cf676378)
 
 
-
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3646cd10-bfcb-4295-bb55-ade30d827b08)
 
 
 
