@@ -113,7 +113,7 @@ After that, you will have RoadRunner running correctly, and it should look like 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7a86af04-1185-4d76-a8ac-5760d226c021)
 
-6. 
+6. After that, you need to delete the lane that is goinf leftwards, to do that 
 
 
 
