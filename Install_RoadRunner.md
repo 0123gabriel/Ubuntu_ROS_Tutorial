@@ -141,14 +141,20 @@ You should something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/02748f51-567e-446d-b8c4-a350f1c2b7b6)
 
-9. Now, let's widen the road by clicking the Lane witdth Tool. Select the road, and in the right side type the desired width, in this case, I tyoed 8 meters.
+9. Now, let's widen the road by clicking the Lane witdth Tool. Select the road, and in the right side type the desired width, in this case, I typed 8 meters.
 
  ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/67c707c0-86ac-4fea-bb41-37e1cf676378)
 
+ 10. To chose the directions of the road, you can select the Lane Tool, then click on the lane, and in the arros. After that, in the right side you see some option, and in the Travel Direction field, select Forward.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3646cd10-bfcb-4295-bb55-ade30d827b08)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3540a65a-4832-4363-ba1f-ff925aaa81c5)
 
+11. To extend the road, you have to select the Road Plan Tool, and click on the end of the road you want to extend, and then click on, an empty space, where the road ends.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/cad4f37a-0db8-4084-acb1-183d84a2a38d)
+
+In the last image, I created a circular corner by right clicking in a point far from the end of the previous lane, and to add more points to modify your lane, you can right click on the blue lines, and to give to the road the desired form, move those points and see what happen, and also use the 2D Editor | Profile, this could also help.  
+ 
 
 
 
