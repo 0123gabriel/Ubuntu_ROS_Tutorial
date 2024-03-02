@@ -93,5 +93,32 @@ After that, you will have RoadRunner running correctly, and it should look like 
 
 # Creating a road 
 
+1. Click on New Project, and the give a name for the project, select the location of it, and check the boxes you want.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/69014a68-ecb7-4d0e-abdd-e94e83c03726)
+
+2. Click on Create, and then click on New Scene
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3abbb311-d276-4f28-ad98-9a832019cd9a)
+
+3. This window will open.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c4f76c3f-135f-4a9b-9c9f-f04f2b6684de)
+
+4. To create a road, RoadRunner has the Road Plan Tool option activated, so you can right click in any part of the grid, and the a red dot will appear. You can set the dot coordinates to be more accurate.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d52e6dd2-8145-406c-8fb2-06a0036f53ab)
+ 
+5. Then, right click in any other point, and you will also able to set the coordinates of the second point.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7a86af04-1185-4d76-a8ac-5760d226c021)
+
+6. 
+
+
+
+
+
+
 
 
