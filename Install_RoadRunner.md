@@ -83,90 +83,6 @@ If you are working in Ubuntu 16.04, 18.04, or 20.04, you just need to click on t
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/46733497-76e2-4384-8519-acdd0e5a2aee)
 
-But, if you are using Ubuntu 22.04, then you have to do extra stuff to have your program running. This is beacuse Ubuntu 22.04 is too new to execute RoadRunner. 
-
-### ***Extra steps to run RoadRunner in Ubuntu 22.04***
-
-Open the Terminal and run the following command
-
-```bash
-sudo dpkg -i {name of the .deb file downloaded}
-```
-
-In my case, I had to run this command:
-
-```bash
-sudo dpkg -i RoadRunner_R2023b_Update_6_glnxa64.deb
-```
-
-Once it is done, you will be able to search RoadRunner in the apps your Ubuntu has, but once you click on it, nothing is going to happen. This problem has been solved here (https://www.mathworks.com/matlabcentral/answers/1889127-i-can-t-launch-roadrunner-after-installation), if you want to read more about. And what is says is basically to run this commands in ther terminal.
-
-```bash
-sudo ln -s /usr/lib/x86_64-linux-gnu/libidn.so.12 /usr/lib64/libidn.so.11
-```
-
-```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/libidn.so.11
-```
-
-The last command, should be added to the bash.rc file to ensure that the path ```bash /usr/lib64/libidn.so.11 ``` is going to be available for every time you turn on your computer. To do that, you should run this.
-
-```bash
-echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/libidn.so.11' >> ~/.bashrc
-```
-
-Once you are done with 2 last commands, you can try to this on the Terminal.
-
-```bash
-cd /usr/local/RoadRunner_R2023b/bin/glnxa64 && LD_LIBRARY_PATH=. QT_PLUGIN_PATH=./plugins ./AppRoadRunner
-```
-
-That could give you an error, if that happens, accordingly with the previous link, you have to rename some files. To do that, type this in the terminal.
-
-```bash
-/usr/local/RoadRunner_R2023b/bin/glnxa64
-```
-
-This will move you to the directory where the needed files to run RoadRunner are. You can check them with the ```bash ls ``` command. Then, you have to run this command as many times as the files you have to rename. 
-
-```bash
-sudo mv {original name of the file} {original name of the file}.old
-```
-
-The files to be renamed are:
- - libdrm.so.2
- - libXi.so.6
- - libX11.so.6
- - libXau.so.6
- - libXext.so.6
- - libXdmcp.so.6
- - libXfixes.so.3
- - libXdamage.so.1
- - libXrender.so.1
- - libXxf86vm.so.1
- - libxshmfence.so.1
- - libcurl.so.4
-
-An example to rename the first file are showed below.
-
-```bash
-sudo mv libdrm.so.2 libdrm.so.2.old
-```
-
-As a recommendation, you can check if the file exist by typing this
-
-```bash
-find -name {file name}
-```
-
-Once you are done with that, run this previously mentioned command, and you will get the same window to start using RoadRunner. 
-
-```bash
-cd /usr/local/RoadRunner_R2023b/bin/glnxa64 && LD_LIBRARY_PATH=. QT_PLUGIN_PATH=./plugins ./AppRoadRunner
-```
-
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/46733497-76e2-4384-8519-acdd0e5a2aee)
-
 Then, click on Next button, and select the path where your license.lic file is. It should be in the Dowmloads folder.   
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ff78bae2-81d6-4c2e-9cac-a9573ecbb151)
@@ -174,4 +90,8 @@ Then, click on Next button, and select the path where your license.lic file is. 
 After that, you will have RoadRunner running correctly, and it should look like this. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/791ca4fe-0855-4a97-8e53-955617bae588)
+
+# Creating a road 
+
+
 
