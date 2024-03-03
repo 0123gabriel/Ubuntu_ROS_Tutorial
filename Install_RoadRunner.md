@@ -127,7 +127,7 @@ Next to the last section, you will see the Library Browser which have features y
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/338cfdb0-a5aa-4ff4-a9e6-d8ebac0c5c0a)
 
-You will see that when you move the mouse over the lane, some blue lines appear, they let you to repeat some features the road has like the bikeside, etc. 
+You will see that when you move the mouse over the lane, some blue lines appear, they let you to repeat some features the road has like the bike lane, etc. 
 
 7. With the process of the sixth step, delete the light gray part of the road.
 
