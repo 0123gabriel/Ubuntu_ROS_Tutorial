@@ -59,7 +59,7 @@ In this case, you should run this
 /sbin/ifconfig enp56s0
 ```
 
-Run that command for every Iface your computer showed. The output of those commands will the Host ID which is the 12 digit number next to the "ether" word. In my case, my computer showed three names in the Iface column, so I had to try the previous command three times, and I found out that my computer has a Ethernet and Wi-Fi net interfaces, so I have 2 Host ID. 
+Run that command for every Iface showed. The output of those commands will the Host ID which is the 12 digit number next to the "ether" word. In my case, my computer showed three names in the Iface column, so I had to try the previous command three times, and I found out that my computer has a Ethernet and Wi-Fi net interfaces, so I have 2 Host ID. 
 
 ### ***2nd Method***
 
