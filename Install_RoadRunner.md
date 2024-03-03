@@ -145,7 +145,7 @@ You should get something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/02748f51-567e-446d-b8c4-a350f1c2b7b6)
 
-9. Now, let's widen the road by clicking the Lane witdth Tool. Select the road, and in the right side type the desired width, in this case, I typed 8 meters.
+9. Now, let's widen the road by clicking the Lane Witdth Tool. Select the road, and in the right side type the desired width, in this case, I typed 8 meters.
 
  ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/67c707c0-86ac-4fea-bb41-37e1cf676378)
 
