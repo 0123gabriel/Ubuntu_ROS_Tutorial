@@ -137,11 +137,11 @@ You should end with something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/fba1382f-17b4-46a7-b3ab-43ff79e5caea)
 
-8. The we will change the appearance of the road, so to Delete the yellow lines click on the Lane Marking Tool, and select (following the same process of dragging) the yellow lines, and the Delete. 
+8. The we will change the appearance of the road, so to delete the yellow lines click on the Lane Marking Tool, and select (following the same process of dragging) the yellow lines, and then delete them. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9d989597-d0f2-4a1c-a0de-70aa3981243c)
 
-You should something like this.
+You should get something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/02748f51-567e-446d-b8c4-a350f1c2b7b6)
 
