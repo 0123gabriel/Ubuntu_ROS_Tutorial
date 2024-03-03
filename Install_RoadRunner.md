@@ -149,15 +149,20 @@ You should get something like this.
 
  ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/67c707c0-86ac-4fea-bb41-37e1cf676378)
 
- 10. To chose the directions of the road, you can select the Lane Tool, then click on the lane, and in the arros. After that, in the right side you see some option, and in the Travel Direction field, select Forward.
+ 10. To chose the directions of the road, you can select the Lane Tool, then click on the lane. After that, in the right side you see some option, and in the Travel Direction field, select Forward. That will create some arrows going rightwards.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3540a65a-4832-4363-ba1f-ff925aaa81c5)
 
-11. To extend the road, you have to select the Road Plan Tool, and click on the end of the road you want to extend, and then click on, an empty space, where the road ends.
+11. To extend the road, you have to select the Road Plan Tool, and click on the end of the road you want to extend, and then click on an empty space where the road ends.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/cad4f37a-0db8-4084-acb1-183d84a2a38d)
 
-In the last image, I created a circular corner by right clicking in a point far from the end of the previous lane, and to add more points to modify your lane, you can right click on the blue lines, and to give to the road the desired form, move those points and see what happen, and also use the 2D Editor | Profile, this could also help.  
+In the last image, I created a circular corner by right clicking in a point far from the end of the previous lane, and to add more points to modify your lane, you can right click on the blue lines, and to give to the road the desired form, move those points and see what happen, and also you can use the 2D Editor | Profile, this could also help given some slope to the road. At this point, I had to save the scene, so you can click on File tab, then Save As, and select the location of the scene. When you want to continue working in, you have to open RoadRunner and your scene will be showed, so you can just click on it and keep working. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5cf9b44e-c910-407f-94af-690d15fe548b)
+
+
+12. Keep playing with the reviewed tools, and create a closed-loop road. I have created this one, which is mostly flat, but has some slope 
  
 
 
