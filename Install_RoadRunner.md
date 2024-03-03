@@ -95,9 +95,9 @@ After that, you will have RoadRunner running correctly, and it should look like 
 
 # Creating a road 
 
-This section explains a reduced number of tools RoadRunner has, if you are interested in try new things, you can check the RoadRunner website (https://la.mathworks.com/solutions/automated-driving/roadrunner-tutorial.html) (this one a more advanced https://la.mathworks.com/videos/series/getting-started-with-roadrunner.html)
+This section explains a reduced number of tools RoadRunner has, if you are interested in try differente tools, you can check the RoadRunner website (https://la.mathworks.com/solutions/automated-driving/roadrunner-tutorial.html) (this one a more advanced https://la.mathworks.com/videos/series/getting-started-with-roadrunner.html)
 
-1. Click on New Project, and the give a name for the project, select the location of it, and check the boxes you want.
+1. Click on New Project, and then give a name for the project, select the location of it, and check the boxes you want.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/69014a68-ecb7-4d0e-abdd-e94e83c03726)
 
@@ -109,7 +109,7 @@ This section explains a reduced number of tools RoadRunner has, if you are inter
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c4f76c3f-135f-4a9b-9c9f-f04f2b6684de)
 
-Let's understand some general parts of the application. In the bottom left side, you will see the 2D Editor | Profile section; this tool will let you modify some parameters depending on the part of the road you have selected. For example, in a flat and straight lane, you will see a line representing the road, you can give to this line some downwards and upwards slope by dragging the extreme points, and if you check that zone and see some points in the middle of the line, they will let you bend the road.  
+Let's understand some general parts of the application. In the bottom left side, you will see the 2D Editor | Profile section; this tool represents in 2D the road you have made or selected, and any inclination in it will be the slope that lane has. For example, in a flat and straight lane, you will see a line representing the road, you can give to this line some downwards and upwards slope by dragging the end points, and if you check that zone and see some points in the middle of the line, they will let you bend the road.  
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7104e3fd-c93a-4fc3-a373-422744eaae08)
 
