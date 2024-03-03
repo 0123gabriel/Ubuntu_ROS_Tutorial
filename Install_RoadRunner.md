@@ -95,6 +95,8 @@ After that, you will have RoadRunner running correctly, and it should look like 
 
 # Creating a road 
 
+This section explains a reduced number of tools RoadRunner has, if you are interested in try new things, you can check the RoadRunner website (https://la.mathworks.com/solutions/automated-driving/roadrunner-tutorial.html) (this one a more advanced https://la.mathworks.com/videos/series/getting-started-with-roadrunner.html)
+
 1. Click on New Project, and the give a name for the project, select the location of it, and check the boxes you want.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/69014a68-ecb7-4d0e-abdd-e94e83c03726)
