@@ -123,7 +123,7 @@ Next to the last section, you will see the Library Browser which have features y
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7a86af04-1185-4d76-a8ac-5760d226c021)
 
-6. After that, you need to delete the lane that is going leftwards, to do that click on the Lane Add Tool, click on the lane,and by clicking and dragging create a box that selects all the leftwards lane, and the press Delete.
+6. After that, you need to delete the lane that is going leftwards, to do that click on the Lane Add Tool, click on the lane, and by clicking and dragging create a box that selects all the leftwards lane, and the press Delete.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/338cfdb0-a5aa-4ff4-a9e6-d8ebac0c5c0a)
 
