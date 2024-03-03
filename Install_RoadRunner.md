@@ -73,7 +73,7 @@ This will show all the information about every net interface, so you will watch 
 
 Then, going back to fill out the Host ID field,
 
-10. Copy the Host ID you will use. In this case, I am going to use my Wi-Fi net interface so I selected my Host ID related to wlo1 interface.
+10. Copy the Host ID you will use. In this case, I am going to use my Wi-Fi net interface so I selected my Host ID related to wlo1 interface, but anyone can work out.
 11. Set a name for your computer, to know which machine is using RoadRunner when you launch it, and then click on Continue.
 12. A window will ask you if the software is installed, clik on the answer No, and click on Continue.
 13. MathWorks will ask you to download or email you the License File, you can do both if you want, and click on the intructions link, to read more about the installation process.
