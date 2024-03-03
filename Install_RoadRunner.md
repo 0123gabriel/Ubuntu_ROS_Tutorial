@@ -8,7 +8,7 @@ I consider important to be mentioned that RoadRunner cannot be executed in Ubunt
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/e8bb554e-6694-4d78-950c-55db3d82117c)
 
-4. A pop-up windows will apper, and click on the Request Software Form button.
+4. A pop-up windows will appear, and click on the Request Software Form button.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8e980e08-cc63-4228-9840-2cbbdcbb7c26)
 
