@@ -53,7 +53,7 @@ To know your Host ID run the following command in the terminal
 /sbin/ifconfig {name of the net interface}
 ```
 
-In this case, you shoul run this
+In this case, you should run this
 
 ```bash
 /sbin/ifconfig enp56s0
