@@ -1,6 +1,6 @@
-# Tutorial to install MathWorks RoadRunner on Ubuntu 20.04
+# Tutorial to install MathWorks RoadRunner on Ubuntu 16.04, 18.04 and 20.04
 
-I consider important to be mentioned that RoadRunner cannot be executed in Ubuntu 22.04 (I tried soo many things, and anyone worked out), so I had to install a virtual machine with Ubuntu 20.04.
+I consider important to be mentioned that RoadRunner cannot be executed in Ubuntu 22.04 (I tried soo many things, and anyone worked out), so I had to install a virtual machine with Ubuntu 20.04, but you can also try with Ubuntu 16.04 or 18.04.
 
 1. Go to MathWorks website and sign in (https://www.mathworks.com/login).
 2. Then open the following link to request your RoadRunner license (https://la.mathworks.com/academia/student-competitions/carla-autonomous-driving-challenge.html).
