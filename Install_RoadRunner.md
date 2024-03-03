@@ -81,7 +81,7 @@ Then, going back to fill out the Host ID field,
 
 ## Installing RoadRunner
 
-If you are working in Ubuntu 16.04, 18.04, or 20.04, you just need to click on the .deb file that was downloaded previously, and then click on the green Install button. The following window will appear. 
+You just need to click on the .deb file that was downloaded previously, and then click on the green Install button. The following window will appear. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/46733497-76e2-4384-8519-acdd0e5a2aee)
 
