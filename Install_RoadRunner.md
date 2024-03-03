@@ -12,7 +12,7 @@ I consider important to be mentioned that RoadRunner cannot be executed in Ubunt
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8e980e08-cc63-4228-9840-2cbbdcbb7c26)
 
-5. Fill out all the blank spaces, and check the two boxes: the first one about "Team Leader/Faculty Advisor Confirmation" and the other one to agree the Use Agreement. The first three blank spaces should be filled out with your MathWorks account information. Finally click on submit and MathWorks Team will check your Software Request and they will send you an activation key to your email after about 2 days. 
+5. Fill out all the blank spaces, and check the two boxes: the first one about "Team Leader/Faculty Advisor Confirmation" and the other one to agree the Use Agreement. The first three blank spaces should be filled out with your MathWorks account information. Finally click on submit and MathWorks Team will check your Software Request and they will send you an activation key to your email about 2 days later. 
  
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a8ee2ae8-86c1-4259-96e8-743d6ed6ed49)
 
