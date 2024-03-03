@@ -115,7 +115,7 @@ Let's understand some general parts of the application. In the bottom left side,
 
 Next to the last section, you will see the Library Browser which have features you can give to the lanes as the material of the road, some signs, etc. In the right side you will see a black box which has the title Atributes, in this part should appear some aspects you can modify like the distance, some coordinates, etc. Then in the top part, there are the needed tools to create and modify the lanes; in the left side you will see three tools, they let you to rotate, and select the axis of one road, and finallly, in the center of the app you have a grid where you can draw your road, and in the top and bottom right corners you have some tools to change the view of the grid. Now, let's continue creating a new road, so select all the road by clicking and dragging the mouse, and the press Delete. 
 
-4. To create a road, RoadRunner has the Road Plan Tool option activated, so you can right click in any part of the grid, and the a red dot will appear. You can set the dot coordinates to be more accurate.
+4. To create a road, RoadRunner has the Road Plan Tool option activated, so you can just right click in any part of the grid, and a red dot will appear. You can set the dot coordinates to be more accurate.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d52e6dd2-8145-406c-8fb2-06a0036f53ab)
  
