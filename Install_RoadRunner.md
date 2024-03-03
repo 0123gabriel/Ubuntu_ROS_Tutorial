@@ -24,7 +24,7 @@ Or in yout account, after loggin in.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f14b29f1-7c58-4395-9055-8cbf07269fd6)
 
-7. Click on the RoadRunner lisense, then on the Install and Actibe tab, and finally in the Active a Computer Button.
+7. Click on the RoadRunner lisense, then on the Install and Actibe tab, and finally in the Active a Computer button.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/025acb81-442a-4da0-8495-24fc96c3168f)
 
