@@ -68,8 +68,35 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 16. Click on the Import COLLADA button.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/4cc5679a-73d9-44fc-8824-408289229e22)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/85e1e675-2192-42d1-8538-c9457a44aa30)
 
-17. Then, following the table below, set the coordinates for the body of the vehicle. It is important that the car is facing the positive X axes.
+17. Then, following the table below, set the coordinates for the body of the vehicle. It is important that the car is facing the positive X axe, and you can locate and rotate the car in the Transform section, in the left sidebar.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/72dbaffd-b5d7-4e66-839a-c50760631d5a)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/49aa11ba-af92-4ce2-9e9e-1b42972c36ec)
+
+18. Repeat the same process with the wheels of the car, and locate them following the previous table, and rename them too by double clicking on the name of the file . It is possible that you may need to rotate the wheels, make sure that they are well-oriented. You should get something like this. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9e070ed8-504a-4eda-a49a-5a1a87076393)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d0d80185-c0e3-4835-821d-0f1d6f69f24b)
+
+19. Once the placement is complete, launch the Vehicle Rigging Blender Addon by pressing N on your keyboard and clicking on the 'UE4 Vehicle' tab. In the Vehicle rigging menu, match the Vehicle Base, Wheel FR, Wheel RR and Wheel FL fileds with each part of the vehicle. To do that, click the blank space next to each field, and select the appropriate model. For our example, we matched them following this image. 
  
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3ff3c34c-3f2b-48ca-a6a1-8a034e581a8d)
+
+20. Click the 'Upscale Objects' and 'Set Unit Scale' buttons to resize the objects, then click the 'Rig Vehicle' button to apply the armature to the vehicle. You should get something like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3fc1aa98-a80d-4996-8a22-d981c0cd5871)
+
+21. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/e6212821-b3fc-459a-8a99-af26a9cd2cd4)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b601cf3a-f8bb-44c6-a3eb-fdc28b4d9c35)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/83e37c87-20be-46b2-b694-d1ccca237b86)
+
+
+
