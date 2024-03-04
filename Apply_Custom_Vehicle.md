@@ -110,5 +110,8 @@ Your setting should loook like this.
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0e80bda2-ab54-41aa-b0a9-bd017b7fd58a)
 
 24. Name the file and click on Export FBX.
-25. 
+25. Select all the files again, like the image below.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ec97404c-f87c-410b-a12c-84059ed4d147)
+
+26. Under the File tab, there is another bar 
