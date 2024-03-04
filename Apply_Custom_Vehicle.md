@@ -1,6 +1,8 @@
 # Using a customed vehicle with CARLA
 
-This task will need some software, the first one is Blender and the other one is an Add-on for Blender which let us use the customed vehicle. This Add-on is called: Vehicle Rigging Blender Addon. 
+This task will need 2 apps: the first one is Blender and the other one is an Add-on for Blender which let us use the customed vehicle. This Add-on is called: Vehicle Rigging Blender Addon. 
+
+We also need the design of the car and the wheels, you can downlad them from the following link (https://url.kr/gxv5yp) and remember where are they located. 
 
 1. To install Blender, go to this website (https://www.blender.org/) and click on Download button.
 
@@ -56,11 +58,18 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/56bc6338-1530-4b2a-a14e-6807b1442cfe)
 
-14. Click on the File tab, then select Import, and click on Collada(.dae) option.
+14. Click on the File tab, then select Import, and click on *Collada(.dae)* option.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f0d89fa0-26c5-40a6-8483-a285d18fd628)
 
-15. Go to the location of the DAE files, and open them. 
+15. Go to the location of the ``` .dae ``` files, and open the body of the car. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3e411112-1b5c-486e-b8a1-7f6b9a8c2c73)
 
+16. Click on the Import COLLADA button.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/4cc5679a-73d9-44fc-8824-408289229e22)
+
+17. Then, following the table below, set the coordinates for the body of the vehicle. It is important that the car is facing the positive X axes.
+
+ 
