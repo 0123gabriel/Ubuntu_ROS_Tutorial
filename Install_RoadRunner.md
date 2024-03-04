@@ -272,9 +272,8 @@ And check the following options:
 
 * Convert Scene Unit
 * If you want to import materials and textures:
-    
-      * Material Import Method - Create new materials
-      * Import Textures
+    * Material Import Method - Create new materials
+    * Import Textures
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a8e05a0b-cf90-4434-bd87-1247b8b64f76)
 
