@@ -307,3 +307,4 @@ You should have something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6550de98-2fda-4ac8-8e4b-57cdba5e4864)
 
+You can relaunch Unreal Engine to see that your map is now the default one. 
