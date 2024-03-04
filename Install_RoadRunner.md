@@ -229,5 +229,14 @@ make import
 make launch
 ```
 
-6. 
+6. In th bottom part, you will see the Content Browser.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6b67d12c-89af-4034-a381-4c8840cbe9f5)
+
+Click on CARLA folder
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d9bcff31-4ce6-43fc-ad0e-089fabec252d)
+
+7. Then click on Maps folder, and create a new folder by right clicking anywhere. This folder will have your customed map.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/59179e81-b2c3-46b9-8fda-08e44abc0464)
