@@ -186,7 +186,20 @@ You should end with something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/581f8e12-deb4-429d-b8f8-7d2d24e67b68)
 
+17. In the window that pops up, check the following options:
 
+    * **Split by Segmentation:** Divides the mesh by semantic segmentation.
+    * **Power of Two Texture Dimensions:** Improves performance.
+    * **Embed Textures:** Ensures textures are embedded in the mesh.
+    * **Export to Tiles:** Choose the size of the tile or leave unchecked for only one piece.
+
+    And leave unchecked:
+    
+    * **Export Individual Tiles:** Generates one .fbx file with all map pieces.
+
+    And leave the values that are by defult in the fileds of Tile Size and Tile Center.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/55f16aeb-22d9-4ae6-99be-6c0d0b2498c1)
 
 
 
