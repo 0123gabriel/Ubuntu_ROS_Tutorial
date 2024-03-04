@@ -237,6 +237,32 @@ Click on CARLA folder
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d9bcff31-4ce6-43fc-ad0e-089fabec252d)
 
-7. Then click on Maps folder, and create a new folder by right clicking anywhere. This folder will have your customed map.
+7. Then click on Maps folder, and create a new folder by right clicking anywhere. This folder will have your customed map. y folder is called carlaRoad.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/59179e81-b2c3-46b9-8fda-08e44abc0464)
+
+8. Then open the new folder you just created. After that, under the Content Browser title, you will see a Add/Import green button, and under it, a Filters button. In the left side of the Filters button, there is another button with a small triangulo in it, and some horizontal lines. Click that one, and a kind of folder browser will appear. Then, in the same directory of your folders, click on the BaseMap Folder.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0dad7131-3042-44cd-8ae6-7c05c2725da0)
+
+19. In the BaseMap folder you will see that there is an orange file, they are called "level". Click and drag it to the folder we just created. You will see that once we are dragging the file, a box appear and says "Move or copy BaseMap". And then, another box will appear asking if you want to move or capy that file, please select "Copy Here". Finally, the folder you created will look like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/1298c0b4-4123-4b78-9895-a1e424d74078)
+
+20. You can rename that file (I named as carla_road), but we need it becuase it has some basic parameters about the illumination of the map. If we do not use it, we will get a completely dark map, and it will be unuseful.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/37d09419-ff5c-48f4-bfdd-8a88bc9ac9d1)
+
+21. Then, click on the Add/Import green button, and then in Import Asset
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/89531a14-5db3-48e5-9164-ec459b708d39)
+
+22. Browse your ``` .fbx ``` file and open it.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/26a53d02-d9e9-42d3-b16c-d4f341ac3b47)
+
+23. 
+
+
+
+
