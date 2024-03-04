@@ -201,15 +201,12 @@ You should end with something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/55f16aeb-22d9-4ae6-99be-6c0d0b2498c1)
 
-After that, you should watch a window like this one,
+18. If you get this errors, do not worry about them, they are related to some assets, but we are not using them. The important part is the path where the files were exported, you can checked them in the line that begins with Exported, but they should be inside the Exports folder which is inside the folder that contains all the project. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/af9f4363-4625-4472-a3f1-01b6d155790f)
 
-18. If you get this errors, do not worry about them, they are related to some assets, but we are not using them. The important part is the path where the files where exported, you can checked them 
+20. Go to path where you exported the files of the map, and make you sure that the ``` .xodr ``` and the ``` .fbx ``` files have the same name.
 
-19. 
-20. Make sure that the ``` .xodr ``` and the ``` .fbx ``` files have the same name. Finally, if you get 
-
-
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d383063d-8d6b-4519-baa2-cf102d21195b)
 
 
