@@ -167,7 +167,18 @@ Open carla simulator and follow the steps.
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/93920e0f-c419-4572-ac8a-e9a5001f88e2)
 
 5. Repeat the process with the second ``` .fbx ``` file.
-6. 
+6. Once all the files are imported, the carpet that contains them should look like this.
 
+Imagen
+
+7. It is recommendable, based on Unreal Engine, to rename the files as the following table.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b562ef99-40ab-49ea-9bf9-adc25955da58)
+
+8. Once you have renamed all the files, you should have gotten something like this.
+
+Imagen.
+
+### Setting up Physics
 
 
