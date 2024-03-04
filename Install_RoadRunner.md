@@ -272,6 +272,7 @@ And check the following options:
 
 * Convert Scene Unit
 * If you want to import materials and textures:
+*  
       * Material Import Method - Create new materials
       * Import Textures
 
