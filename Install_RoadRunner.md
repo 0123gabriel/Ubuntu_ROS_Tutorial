@@ -197,15 +197,18 @@ You should end with something like this.
     
     * **Export Individual Tiles:** Generates one ``` .fbx ``` file with all map pieces.
 
-    And leave the values that are by default in the fileds of Tile Size and Tile Center. Then click on Export, and watch the path where it is saved.  
+    And leave the values that are by default in the fileds of Tile Size and Tile Center. Then click on Export, and watch the path where it is saved.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/55f16aeb-22d9-4ae6-99be-6c0d0b2498c1)
 
-Make sure that the ``` .xodr ``` and the ``` .fbx ``` files have the same name. Finally, if you get this errors, do not worry about them, they are related to some asstes, but we are not using them.  
+After that, you should watch a window like this one,
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/af9f4363-4625-4472-a3f1-01b6d155790f)
 
+18. If you get this errors, do not worry about them, they are related to some assets, but we are not using them. The important part is the path where the files where exported, you can checked them 
 
+19. 
+20. Make sure that the ``` .xodr ``` and the ``` .fbx ``` files have the same name. Finally, if you get 
 
 
 
