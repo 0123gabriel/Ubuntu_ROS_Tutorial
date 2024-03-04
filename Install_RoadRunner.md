@@ -209,4 +209,25 @@ You should end with something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d383063d-8d6b-4519-baa2-cf102d21195b)
 
+## Applying a custom map to the CARLA simulator
+
+1. Go to the Import folder which is inside the CARLA folder that was created when we installed it.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/fd7a4563-b38b-4163-90af-d507d5f7fb58)
+
+2. Delete the README.md file. If you open it, you will read that is says that in this folder you sould put the map file that we already created. It is important to mention that if there is any other file in that folder, the custom map will not be applied.
+3. Save the ``` .fbx ``` or ``` .xodr ``` file in the Import folder.
+4. Open a terminal, then change the directory to CARLA folder, and run this command. This may take some minutes.
+
+```bash
+make import
+```
+
+5. Run CARLA simulator using this command in the same CARLA folder directory.
+
+```bash
+make launch
+```
+
+6. 
 
