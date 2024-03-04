@@ -279,7 +279,31 @@ And check the following options:
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6041a8b7-662f-4bef-821c-741c85ca42a1)
 
+24. Double click on the level file, and your map will open. If a window like the one below pops up, click on Save Selected. 
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/4b8f795e-6833-4184-9d97-8357f4edb2e2)
 
+You should have something like this. 
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5fef7c4b-0ee4-4aff-aa84-e9262229b4bc)
+
+25. Once everything is loaded up, you should end with several Static Meshes in the folder you have selected. Select all of them, and dragg those into the level which is already open.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d83b68b6-06a2-4bb9-8df8-01c91c147297)
+
+26. In the left section, you have the World Outliner, and under that one the Details section, and inside of it, the Tranform section where you have to set the location with zeros. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d4e050da-e3ac-464a-9500-d9819cabff27)
+
+27. Now, we have to set the users perspective at the start of the simulation. In the Place Actors menu on the left, click on the Player Start actor and move it to the location where the user's perspective will start. You can use the on-screen XYZ arrows to position it or change the Location and Rotation values in Details -> Transform on the right to adjust the position.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/94c08fba-d089-49e4-a335-50d2afe0318d)
+
+28. This step will show you how to set that map as the default map. In case you do not want it to be the default map, you will have to go to the path with your level file and custom map, and open it manually. But if you want to have this open when you run Unreal Engine go to Settings (which is in the same bar where Play button is) and select Project Settings... option.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/34a33101-98c3-403e-8a68-f5c65b51ca3d)
+
+29. In the sidebar, in the Projects section, click on Maps & Modes. Then in right side section, look for the Editor Startup Map, click on the downwards arrow, and search your map. Here you will also see that there are more maps that came with the CARLA installation.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6550de98-2fda-4ac8-8e4b-57cdba5e4864)
 
