@@ -90,8 +90,11 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3fc1aa98-a80d-4996-8a22-d981c0cd5871)
 
-21. 
+21. In the Scene Collection on the right, select all the objects by clicking CTRL key, and clicking the following items.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8a28cce7-2a92-4737-be63-c175089bb6d5)
+
+22. Click on File tab at the top of Blender, then select Export, and finally click on FBX
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/e6212821-b3fc-459a-8a99-af26a9cd2cd4)
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b601cf3a-f8bb-44c6-a3eb-fdc28b4d9c35)
