@@ -96,7 +96,5 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b601cf3a-f8bb-44c6-a3eb-fdc28b4d9c35)
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/83e37c87-20be-46b2-b694-d1ccca237b86)
-
 
 
