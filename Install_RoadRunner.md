@@ -182,7 +182,7 @@ You should end with something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/540e20b7-74bd-4989-a1ed-eb519e8eb3bb)
 
-16. When you have finished creating your custom map, click file from the top menu, then click on Export, and select CARLA firmbox and save the custom map file to the desired path.
+16. When you have finished creating your custom map, click file from the top menu, then click on Export, and select CARLA firmbox.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/581f8e12-deb4-429d-b8f8-7d2d24e67b68)
 
@@ -195,11 +195,15 @@ You should end with something like this.
 
     And leave unchecked:
     
-    * **Export Individual Tiles:** Generates one .fbx file with all map pieces.
+    * **Export Individual Tiles:** Generates one ``` .fbx ``` file with all map pieces.
 
-    And leave the values that are by defult in the fileds of Tile Size and Tile Center.
+    And leave the values that are by default in the fileds of Tile Size and Tile Center. Then click on Export, and watch the path where it is saved.  
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/55f16aeb-22d9-4ae6-99be-6c0d0b2498c1)
+
+Make sure that the ``` .xodr ``` and the ``` .fbx ``` files have the same name. Finally, if you get this errors, do not worry about them, they are related to some asstes, but we are not using them.  
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/af9f4363-4625-4472-a3f1-01b6d155790f)
 
 
 
