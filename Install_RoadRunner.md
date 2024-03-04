@@ -261,7 +261,24 @@ Click on CARLA folder
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/26a53d02-d9e9-42d3-b16c-d4f341ac3b47)
 
-23. 
+23. A pop-up window will appear, and make sure to uncheck the following options:
+
+*Auto Generate Collision
+*Combine Meshes
+*Force Front xAxis
+*Normal Import Method - Import Normals
+
+And check the following options:
+
+*Convert Scene Unit
+*If you want to import materials and textures:
+      *Material Import Method - Create new materials
+      *Import Textures
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a8e05a0b-cf90-4434-bd87-1247b8b64f76)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6041a8b7-662f-4bef-821c-741c85ca42a1)
+
 
 
 
