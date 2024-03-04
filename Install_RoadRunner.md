@@ -157,12 +157,18 @@ You should get something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/cad4f37a-0db8-4084-acb1-183d84a2a38d)
 
-In the last image, I created a circular corner by right clicking in a point far from the end of the previous lane, and to add more points to modify your lane, you can right click on the blue lines, and to give to the road the desired form, move those points and see what happen, and also you can use the 2D Editor | Profile, this could also help given some slope to the road. At this point, I had to save the scene, so you can click on File tab, then Save As, and select the location of the scene. When you want to continue working in, you have to open RoadRunner and your scene will be showed, so you can just click on it and keep working. 
+In the last image, I created a circular corner by right clicking in a point far from the end of the previous lane, and to add more points to modify your lane, you can right click on the blue lines, and to give to the road the desired form, move those points and see what happen, and also you can use the 2D Editor | Profile, this could also help given some slope to the road. At this point, I had to save the scene, so you can click on File tab, then Save As, and select the location of the scene (I would recommend to save it in the place that the app has by default). When you want to continue working in, you have to open RoadRunner and your scene will be showed in the Recent Files section, so you can just click on it and keep working. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5cf9b44e-c910-407f-94af-690d15fe548b)
 
 
-12. Keep playing with the reviewed tools, and create a closed-loop road. I have created this one, which is mostly flat, but has some slope 
+12. Keep playing with the reviewed tools, and create a closed-loop road. When it is done, you will see that the space inside the road will be filled with a green ground. I have created this one, which is mostly flat, but has some slope which is showed below. 
+ 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/63741599-39e4-4134-8e63-09e184f43999)
+
+13. To add some ground around and out the road, you can select the Surface Tool. Then, right click and create a closed loop, and after that, the section will be filled.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/1fb4abc4-f267-4a8c-888e-57dd044995a3)
  
 
 
