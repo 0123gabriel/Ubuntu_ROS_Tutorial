@@ -94,10 +94,21 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8a28cce7-2a92-4737-be63-c175089bb6d5)
 
-22. Click on File tab at the top of Blender, then select Export, and finally click on FBX
+22. Click on File tab at the top of Blender, then select Export, and finally click on *FBX(.fbx)*
+
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/e6212821-b3fc-459a-8a99-af26a9cd2cd4)
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b601cf3a-f8bb-44c6-a3eb-fdc28b4d9c35)
+23. In the pop-up window, on the right side, please make sure that the following fields are filled as follows:
 
+    * In the Include menu, the *Limit to* field, check the box next to Selected Objects.
+    * In the Object Types menu, select Armature and Mesh option. You can select both by keep pressing SHIFT key and clicking over those 2 options.
+    * In the Geometry menu, set the Smoothing field with the Face option.
+    * In Armature menu, uncheck the Add Leaf Bones checkbox.
+   
+Your setting should loook like this. 
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0e80bda2-ab54-41aa-b0a9-bd017b7fd58a)
+
+24. Name the file and click on Export FBX.
+25. 
 
