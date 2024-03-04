@@ -114,4 +114,7 @@ Your setting should loook like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ec97404c-f87c-410b-a12c-84059ed4d147)
 
-26. Under the File tab, there is another bar 
+26. Under the File tab, there is another bar with around 4 or 5 options. There is also a drop-down menu, click on it and select Object Mode.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b5413cfa-fb36-4751-a704-2df27a4fd8cc)
+
