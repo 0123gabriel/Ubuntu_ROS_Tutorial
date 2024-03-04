@@ -135,7 +135,7 @@ https://o365skku-my.sharepoint.com/personal/jongsoo_o365_skku_edu/_layouts/15/on
 
 ## Applying a custom vehicle to the CARLA simulator
 
-Adding a custom vehicle to the CARLA simulator is a complex process. The whole process takes place while CARLA simulator is running with make launch or make launch-only. If you make any mistakes, your car may not run, so follow the steps carefully. 
+Adding a custom vehicle to the CARLA simulator is a complex process. The whole process takes place while CARLA simulator is running with make launch or make launch-only commands. If you make any mistakes, your car may not run, so follow the steps carefully. 
 
 The sequence of steps is as follows:
 
@@ -146,4 +146,28 @@ The sequence of steps is as follows:
 5. Setting Up a Vehicle Spawn Blueprint
 6. Registering a custom vehicle in Vehicle Factory
 
-### Import 2 Vehicle Files Created in Blender
+Open carla simulator and follow the steps.
+
+### 1. Import 2 Vehicle Files Created in Blender
+
+1. Once CARLA is open, create a folder in the Content Browser to manage your customed vehicles, and double ckick on it.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/64875764-5140-434e-a9c7-0afdffc14155)
+
+2. Click on Add/Import button, then on Import.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/22194261-7da3-4e2c-bf05-0ec3fcb1b57e)
+
+3. Go to the path where the 2 previous files were exported.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ca7bce9b-d662-4506-9884-dcf29226506a)
+
+4. Click on Open, and then do not change anything and click on Import All.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/93920e0f-c419-4572-ac8a-e9a5001f88e2)
+
+5. Repeat the process with the second ``` .fbx ``` file.
+6. 
+
+
+
