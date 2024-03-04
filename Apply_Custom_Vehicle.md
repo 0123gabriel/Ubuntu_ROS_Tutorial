@@ -118,3 +118,14 @@ Your setting should loook like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b5413cfa-fb36-4751-a704-2df27a4fd8cc)
 
+27. Click on the Object tab, and then on Join. You should not see any warning at the Blender's bottom.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6da191af-bca9-41a8-9611-4dae555a9a1f)
+
+You can also make this by using the shorcut CTRL+j
+
+28. Create another ``` .fbx ``` file repeating from the step 22, but in the Object Types menu, select only mesh. The settings should be like the ones shown below. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/98e84a4d-63da-4640-baae-87192265af55)
+
+You can also download the 2 resultant files from here (https://o365skkumy.sharepoint.com/:f:/g/personal/jongsoo_o365_skku_edu/Eo30Ddkp5mdHvqq3pddbP4IB-MAsKtA4Vx_sdMEi6ValZg?e=gv4el0)
