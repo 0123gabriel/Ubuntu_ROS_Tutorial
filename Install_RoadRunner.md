@@ -182,7 +182,9 @@ You should end with something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/540e20b7-74bd-4989-a1ed-eb519e8eb3bb)
 
-16. 
+16. When you have finished creating your custom map, click file from the top menu, then click on Export, and select CARLA firmbox and save the custom map file to the desired path.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/581f8e12-deb4-429d-b8f8-7d2d24e67b68)
 
 
 
