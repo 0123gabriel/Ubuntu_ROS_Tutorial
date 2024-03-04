@@ -137,7 +137,7 @@ https://o365skku-my.sharepoint.com/personal/jongsoo_o365_skku_edu/_layouts/15/on
 
 Adding a custom vehicle to the CARLA simulator is a complex process. The whole process takes place while CARLA simulator is running with make launch or make launch-only. If you make any mistakes, your car may not run, so follow the steps carefully. 
 
-The sequence of steps is as follows
+The sequence of steps is as follows:
 
 1. Import 2 Vehicle Files Created in Blender
 2. Setting up Physics
@@ -145,3 +145,5 @@ The sequence of steps is as follows
 4. Setting Up the Wheel Blueprint
 5. Setting Up a Vehicle Spawn Blueprint
 6. Registering a custom vehicle in Vehicle Factory
+
+### Import 2 Vehicle Files Created in Blender
