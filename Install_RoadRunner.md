@@ -166,10 +166,28 @@ In the last image, I created a circular corner by right clicking in a point far 
  
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/63741599-39e4-4134-8e63-09e184f43999)
 
-13. To add some ground around and out the road, you can select the Surface Tool. Then, right click and create a closed loop, and after that, the section will be filled.
+13. To add some ground around and out the road, you can select the Surface Tool. Then, right click and create a closed loop, and after that, the section will be filled with a green color. This step is not mandatory, but it can get to the road some visual interest.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/1fb4abc4-f267-4a8c-888e-57dd044995a3)
  
+14. Then, select the World Setting Tool and be sure that all the map is bunded by the blue lines, and click on Apply World Changes. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/06673a45-c7a5-4a22-9b45-3a5331c22e71)
+
+15. You can also set the Latitud and Longitude of the map.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/35badd56-a584-499e-b5c6-895ab7d2aec6)
+
+You should end with something like this. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/540e20b7-74bd-4989-a1ed-eb519e8eb3bb)
+
+16. 
+
+
+
+
+
 
 
 
