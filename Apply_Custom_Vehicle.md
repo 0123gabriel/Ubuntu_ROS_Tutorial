@@ -30,7 +30,7 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9fed2d82-0678-4df3-8105-4e10777820e3)
 
-7. To add that new addon to Blender, click on the Edit tab, and then, at the end of the desplegable, click on Preferences.
+7. To add that new addon to Blender, click on the Edit tab, and then, at the end of the drop-down menu, click on Preferences.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5f8ca189-bd08-447e-aed4-fef8f41ed4c7)
 
