@@ -1,6 +1,6 @@
 # Using a customed vehicle with CARLA
 
-This task will need 2 apps: the first one is Blender and the other one is an Add-on for Blender which let us use the customed vehicle. This Add-on is called: Vehicle Rigging Blender Addon. 
+This task will need 2 apps: the first one is Blender and the other one is an Add-on for Blender which let us configure the customed vehicle to be used in Unreal Engiene. This Add-on is called: Vehicle Rigging Blender Addon. 
 
 We also need the design of the car and the wheels, you can downlad them from the following link (https://url.kr/gxv5yp) and remember where are they located. 
 
