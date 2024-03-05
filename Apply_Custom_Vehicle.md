@@ -119,7 +119,7 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 26. Under the File tab, there is another bar with around 4 or 5 options. There is also a drop-down menu, click on it and select Object Mode.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b5413cfa-fb36-4751-a704-2df27a4fd8cc)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/87efa62b-a95a-418f-b1c2-57edc139b192)
 
 27. Click on the Object tab, and then on Join. You should not see any warning at the Blender's bottom.
 
