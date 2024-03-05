@@ -125,11 +125,15 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/bbac67b7-f6c4-4f62-a8e4-9f570d08d324)
 
-You can also make this by using the shorcut CTRL+j
+You can also make this by using the shorcut CTRL+j.
 
-28. Create another ``` .fbx ``` file repeating from the step 22, but in the Object Types menu, select only mesh. The settings should be like the ones shown below. 
+Once they are joined as one part, you should see that if you click on any part the vehicle, the body and the wheels of it are going to be selected. Also take a look at the Scene collection, you won't have 5 parts anymore, you will have only 1. 
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/98e84a4d-63da-4640-baae-87192265af55)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/facbfaae-0528-4c7e-a02c-81f7c0cdb1ba)
+
+28. Create another ``` .fbx ``` file repeating from the step 22, but in the Object Types menu, select only mesh. The settings should be like the ones shown below. Then name the file, and export it.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/92b429e1-a312-42e7-a360-20a93096d863)
 
 You can also download the 2 resultant files from here:
 
