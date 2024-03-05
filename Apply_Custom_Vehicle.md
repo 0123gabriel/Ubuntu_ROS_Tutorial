@@ -76,7 +76,7 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/49aa11ba-af92-4ce2-9e9e-1b42972c36ec)
 
-18. Repeat the same process with the wheels of the car, and locate them following the previous table, and rename them too by double clicking on the name of the file . It is possible that you may need to rotate the wheels, make sure that they are well-oriented. You should get something like this. 
+18. Repeat the same process with the wheels of the car, and locate them following the previous table, and rename them too by double clicking on the name of the file. It is possible that you may need to rotate the wheels, make sure that they are well-oriented. You should get something like this. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9e070ed8-504a-4eda-a49a-5a1a87076393)
 
