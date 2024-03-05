@@ -156,13 +156,13 @@ Open carla simulator and follow the steps.
 
 ### 1. Import 2 Vehicle Files Created in Blender
 
-1. Once CARLA is open, create a folder in the Content Browser to manage your customed vehicles, and double ckick on it.
+1. Once CARLA is open, create a folder in the Content Browser to manage your customed vehicles, and double ckick on it. I have created myVehicle folder.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/64875764-5140-434e-a9c7-0afdffc14155)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c55b2831-e9fe-4412-a2dc-7171d0a24259)
 
-2. Click on Add/Import button, then on Import.
+2. Right click and select Import.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/22194261-7da3-4e2c-bf05-0ec3fcb1b57e)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/130d367e-88bc-40e6-a8e4-e14eac8a2693)
 
 3. Go to the path where the 2 previous files were exported.
 
