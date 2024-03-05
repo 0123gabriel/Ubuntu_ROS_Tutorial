@@ -98,9 +98,9 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 22. Click on File tab at the top of Blender, then select Export, and finally click on *FBX(.fbx)*
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/e6212821-b3fc-459a-8a99-af26a9cd2cd4)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5f960f2b-5be1-4b8d-a46a-7fd5460879c5)
 
-23. In the pop-up window, on the right side, please make sure that the following fields are filled as follows:
+23. In the pop-up window, on the right side, please make sure that the following fields are filled out as follows:
 
     * In the Include menu, the *Limit to* field, check the box next to Selected Objects.
     * In the Object Types menu, select Armature and Mesh option. You can select both by keep pressing SHIFT key and clicking over those 2 options.
