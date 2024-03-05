@@ -137,12 +137,11 @@ Once they are joined as one part, you should see that if you click on any part t
 
 You can also download the 2 resultant files from here:
 
-https://o365skku-my.sharepoint.com/personal/jongsoo_o365_skku_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjongsoo%5Fo365%5Fskku%5Fedu%2FDocuments%2F%EC%97%B0%EA%B5%AC%EC%8B%A4%20%EC%9D%BC%2F%EA%B5%90%EC%9E%AC%EA%B0%9C%EB%B0%9C%28Carla%29%2FCARLA%20Resource%2F1%2ED%5F3%20ERP42%20model%28fbx%29&ga=1
-
+(https://url.kr/gxv5yp)
 
 ## Applying a custom vehicle to the CARLA simulator
 
-Adding a custom vehicle to the CARLA simulator is a complex process. The whole process takes place while CARLA simulator is running with make launch or make launch-only commands. If you make any mistakes, your car may not run, so follow the steps carefully. 
+Adding a custom vehicle to the CARLA simulator is a complex process. The whole process takes place while CARLA simulator is running with make launch or make launch-only commands. If you make any mistakes, your car may not run, so follow the steps carefully. Also, this process might take a while.
 
 The sequence of steps is as follows:
 
