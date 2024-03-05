@@ -50,11 +50,11 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f0aa2d00-58e2-4448-b88b-7e2daad44588)
 
-12. Then restart Blender, and clik on the File tab, at the top menu. Thne select New, and then General.
+12. Then restart Blender, and clik on the File tab, at the top menu. Then select New, and then General.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/95b2760e-653b-42a0-8e8e-31afe6415530)
 
-13. Click on the Camera, Cube, and Light that are provided by default, press the delete key to remove them all.
+13. Click on the Camera and press Delete to remove it, and do the same for the Cube and Light.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/56bc6338-1530-4b2a-a14e-6807b1442cfe)
 
