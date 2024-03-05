@@ -113,7 +113,7 @@ But if you want to be sure, you can right click on the item, then click on prope
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a77e7e2d-39f1-4f60-a9ee-fd70a37c6be5)
 
 24. Name the file and click on Export FBX.
-25. Now, we need to export all the vehicle as one mesh, so you have to select the body of the vehicle, and the four wheels as follows. 
+25. Now, we need to export all the vehicle as one mesh, so you have to select the body of the vehicle, and the four wheels as follows. It is very important that you select first the 4 wheels and then the body of the vehicle, if you do not do that in that specific order, the parts will not join. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/62cdad55-c6b9-4066-ade1-eb890029367c)
 
