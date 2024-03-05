@@ -121,9 +121,9 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/87efa62b-a95a-418f-b1c2-57edc139b192)
 
-27. Click on the Object tab, and then on Join. You should not see any warning at the Blender's bottom.
+27. Click on the Object tab, and then on Join.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6da191af-bca9-41a8-9611-4dae555a9a1f)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/bbac67b7-f6c4-4f62-a8e4-9f570d08d324)
 
 You can also make this by using the shorcut CTRL+j
 
