@@ -113,9 +113,9 @@ But if you want to be sure, you can right click on the item, then click on prope
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a77e7e2d-39f1-4f60-a9ee-fd70a37c6be5)
 
 24. Name the file and click on Export FBX.
-25. Select all the files again, like the image below.
+25. Now, we need to export all the vehicle as one mesh, so you have to select the body of the vehicle, and the four wheels as follows. 
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ec97404c-f87c-410b-a12c-84059ed4d147)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/62cdad55-c6b9-4066-ade1-eb890029367c)
 
 26. Under the File tab, there is another bar with around 4 or 5 options. There is also a drop-down menu, click on it and select Object Mode.
 
