@@ -160,13 +160,13 @@ Open carla simulator and follow the steps.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c55b2831-e9fe-4412-a2dc-7171d0a24259)
 
-2. Right click and select Import.
+2. Right click and select Import to.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/130d367e-88bc-40e6-a8e4-e14eac8a2693)
 
 3. Go to the path where the 2 previous files were exported.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ca7bce9b-d662-4506-9884-dcf29226506a)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3936187a-e70b-4d7f-a89b-68e47734f460)
 
 4. Click on Open, and then do not change anything and click on Import All.
 
