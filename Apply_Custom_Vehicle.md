@@ -70,7 +70,7 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/85e1e675-2192-42d1-8538-c9457a44aa30)
 
-17. Then, following the table below, set the coordinates for the body of the vehicle. It is important that the car is facing the positive X axe, and you can locate and rotate the car in the Transform section, in the left sidebar.
+17. Then, following the table below, set the coordinates for the body of the vehicle. It is important that the car is facing the positive X axis, and you can locate and rotate the car in the Transform section, in the left sidebar.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/72dbaffd-b5d7-4e66-839a-c50760631d5a)
 
