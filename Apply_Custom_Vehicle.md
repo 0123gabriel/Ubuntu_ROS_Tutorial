@@ -14,7 +14,7 @@ We also need the design of the car and the wheels, you can downlad them from the
 
 3. Then open your Downloads folder, right click on the Blender file, and click on Extrat to. Then choose the location where you want that file to be extracted.
 
-4. Go to the directory where the file was extracted and oyou will see a new folder. Double click on it, and then you can luanch blender by clicking the executable file. The image below shows which one should it be.
+4. Go to the directory where the file was extracted and you will see a new folder. Double click on it, and then you can luanch blender by clicking the executable file. The image below shows which one should it be.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/da7f0058-188c-4d32-b042-5ab56310a1e8)
 
