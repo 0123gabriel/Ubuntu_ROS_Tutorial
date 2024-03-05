@@ -88,13 +88,13 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 20. Click the 'Upscale Objects' and 'Set Unit Scale' buttons to resize the objects, then click the 'Rig Vehicle' button to apply the armature to the vehicle. You will note that the vehicle gets bigger.
 
-You should get something like this.
+    You should get something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3fc1aa98-a80d-4996-8a22-d981c0cd5871)
 
 21. In the Scene Collection on the right, select all the objects by clicking CTRL key, and clicking the following items.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8a28cce7-2a92-4737-be63-c175089bb6d5)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b95af6e9-eda3-443b-86d9-0e57bdc51d8d)
 
 22. Click on File tab at the top of Blender, then select Export, and finally click on *FBX(.fbx)*
 
