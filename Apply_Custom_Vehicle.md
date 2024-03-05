@@ -22,7 +22,7 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2ce81785-bd33-45a4-b008-992f88464172)
 
-5. Once you open blender, it will ask you about the languaje, the theme of the app, please select them about your preferences. And if there is a field you do not know what to fill it with, just leave the defualt configuration. Blender should look like this.
+5. Once you open blender, it will ask you about the languaje, the theme of the app, please select them based on your preferences. And if there is a field you do not know what to fill it with, just leave the defualt configuration. Blender should look like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/52727a96-940a-4f0f-a300-6db89cd4b7ef)
 
