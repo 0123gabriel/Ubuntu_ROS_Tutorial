@@ -62,7 +62,7 @@ But if you want to be sure, you can right click on the item, then click on prope
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f0d89fa0-26c5-40a6-8483-a285d18fd628)
 
-15. Go to the location of the ``` .dae ``` files, and open the body of the car. 
+15. Go to the location of the ``` .dae ``` files, and click the file of the body of the car. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3e411112-1b5c-486e-b8a1-7f6b9a8c2c73)
 
