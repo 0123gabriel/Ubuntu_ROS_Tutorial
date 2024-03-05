@@ -200,13 +200,13 @@ Once all the files are imported, the folder that contains them should look like 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0eb73404-f1a2-4198-926a-b9e9b891b5d1)
 
-8. It is recommendable, based on Unreal Engine, to rename the files as the following table.
+8. It is recommendable, based on Unreal Engine advices, to rename the files as the following table.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b562ef99-40ab-49ea-9bf9-adc25955da58)
 
 8. Once you have renamed all the files, you should have gotten something like this.
 
-Imagen.
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/30fa8265-8474-4c12-b5e5-e47609f5b6e6)
 
 ### Setting up Physics
 
