@@ -104,12 +104,13 @@ But if you want to be sure, you can right click on the item, then click on prope
 
     * In the Include menu, the *Limit to* field, check the box next to Selected Objects.
     * In the Object Types menu, select Armature and Mesh option. You can select both by keep pressing SHIFT key and clicking over those 2 options.
+    * In the Tranform menu, in the "Forward" field select *X Forward", and in the "Up" field select "Z up".
     * In the Geometry menu, set the Smoothing field with the Face option.
     * In Armature menu, uncheck the Add Leaf Bones checkbox.
    
-Your setting should loook like this. 
+    Your setting should loook like this. 
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0e80bda2-ab54-41aa-b0a9-bd017b7fd58a)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a77e7e2d-39f1-4f60-a9ee-fd70a37c6be5)
 
 24. Name the file and click on Export FBX.
 25. Select all the files again, like the image below.
