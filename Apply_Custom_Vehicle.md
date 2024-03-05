@@ -168,16 +168,39 @@ Open carla simulator and follow the steps.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3936187a-e70b-4d7f-a89b-68e47734f460)
 
-4. Click on Open, and then do not change anything and click on Import All.
+4. Click over the first exported file from Blender, and then hit Open. In the window that pops up, make sure that the following options are selected, and then click on Import All. This could take around 2 hours, and I also recommend that you should not use your computer until this process finishes, because using it might lead to a crash of Unreal Editor. 
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/93920e0f-c419-4572-ac8a-e9a5001f88e2)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/14791107-45f8-4ce8-87f2-49661c2b0f04)
 
-5. Repeat the process with the second ``` .fbx ``` file.
-6. Once all the files are imported, the carpet that contains them should look like this.
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/80265ee9-f2ea-4bbb-a1ed-4dc7754ec586)
 
-Imagen
+Once the process has finished, you might get some errors, just ignore them and close the window. 
 
-7. It is recommendable, based on Unreal Engine, to rename the files as the following table.
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/63f2afb1-5454-4210-bebf-3a4aa70084ee)
+
+You will get 3 files. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/4416024d-b0b0-47c0-b4a6-fab0189ca359)
+
+5. Repeat the process with the second ``` .fbx ``` file. Right click, then select Import to, hit the second file, and click on Open.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/3e14de37-47fa-4255-a1a5-6314e211e28e)
+
+6. Make sure that the following options are checked.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0c7c4807-ac26-4f2b-993b-9afdb5cfea94)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d92c0fcf-edf6-43f8-82f1-95d844c87924)
+
+7. Then click on Import All. This will take around 30 minutes. And you might also get some errors, ignore them again and close the window. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9da805e6-177b-481e-8cb7-bb068ebe056b)
+
+Once all the files are imported, the folder that contains them should look like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0eb73404-f1a2-4198-926a-b9e9b891b5d1)
+
+8. It is recommendable, based on Unreal Engine, to rename the files as the following table.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b562ef99-40ab-49ea-9bf9-adc25955da58)
 
