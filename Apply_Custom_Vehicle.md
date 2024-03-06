@@ -290,14 +290,17 @@ The AnimGraph should look like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c78c968d-543c-4f2d-bc79-1569de65d4b7)
 
-8. Click on the small item of a person that is in the Wheel Handler and drag the mouse to connect it with the Output Pose. A block called "" should appear in the middle of those 2 blocks.
+8. Click on the small item of a person that is in the Wheel Handler and drag the mouse to connect it with the Output Pose. A block called "Component to Local" should appear in the middle of those 2 blocks.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/032c8ac1-4415-46f2-ae02-209d8518e10b)
 
+9. Click on the Compile button which in the left top corner and then a flowing effect is added to the lines connecting the actions. 
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5d6116d6-f6bf-4aa0-b377-4d20f15e872a)
 
+10. Close the window. 
 
-
+### 4. Setting Up the Wheel Blueprint
 
 
 
