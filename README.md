@@ -14,4 +14,4 @@ The tutorials presented in the following repository were made to help other user
 
 * **Install_MATLAB:** This tutorial will help you to install MATLAB which is a program that you can use with RoadRunner, but in this tutorials we will not use it. 
 
-* If you do not want to probe CARLA with your own vehicle and map designs, go to the tutorial called *Install_CARLA* instead of *Install_Build_CARLA*
+* If you do not want to probe CARLA with your own vehicle and map designs, go to the tutorial called *Install_CARLA* instead of *Install_Build_CARLA* in the step 2.
