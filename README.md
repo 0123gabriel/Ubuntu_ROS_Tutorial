@@ -8,6 +8,8 @@ The tutorials presented in the following repository were made to help other user
 
 **3. Install_Build_CARLA:** This tutorial explains how to install CARLa, and also Unreal Engine, which is a app that will let you to create and use customized vehicles and maps. 
 
-**4. Install_RoadRunner:** This tutorial shows you how to install RoadRunner, an app to create your own lanes to drive your own vehicle. 
+**4. Install_RoadRunner:** This tutorial shows you how to install RoadRunner, an app to create your own lanes to drive your own vehicle. In this file, you will also learn how to create one road and to export it to CARLA.
 
-**EXTRA:** If you do not want to probe CARLA with your own vehicle and map designs, go to this tutorial instead of *Install_Build_CARLA*
+**5. Install_Build_CARLA:** This tutorial shows how to import your own vehicle to CARLA. Here you will use Blender, and you need a file with your own design of the body of a vechicle and another file with the design of one of the wheels of the vehicle. 
+
+**EXTRA:** If you do not want to probe CARLA with your own vehicle and map designs, go to the tutorial called *Install_CARLA* instead of *Install_Build_CARLA*
