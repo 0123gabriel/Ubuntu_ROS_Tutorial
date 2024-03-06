@@ -302,6 +302,9 @@ The AnimGraph should look like this.
 
 ### 4. Setting Up the Wheel Blueprint
 
+1. In the content browser directory where you have your new vehicle asset, right click and choose Blueprints and Blueprint Class. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/63a5f739-8e5c-401b-9e56-d8db3ad0c9df)
 
 
 
