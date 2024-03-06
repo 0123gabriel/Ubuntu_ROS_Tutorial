@@ -272,7 +272,20 @@ After double clicking it, you should get this window.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/166f6d17-2164-4786-bbfb-4bf4da907c8a)
 
-6. 
+6. Add the following blocks:
+
+   * Wheel Handler for WheeledVehicle
+     
+     ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/41dc9127-e19d-4d7b-b5e9-c0c9255f9e01)
+
+   * Mesh Space Ref Pose
+  
+     ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/006f85a8-e835-4bc1-8926-3119b0ba517f)
+
+The AnimGraph should look like this. 
+  
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/987d8628-f36a-4f84-8359-306407b9cb9e)
+
 
 
 
