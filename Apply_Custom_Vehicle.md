@@ -222,7 +222,7 @@ After double clicking it, you should get this window.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5ed43dd5-c2bc-44aa-a77a-23d328d77466)
 
-3. In the Deatisl section on the left, change the following 3 settings from the default settings.
+3. In the Details section on the left, change the following 3 settings from the default settings.
 
    * In the Physics section change the Linear Damping field to zero (0).
    * In the Collision section, check the box next to Simulation Generates Hit Events.
@@ -298,7 +298,7 @@ The AnimGraph should look like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5d6116d6-f6bf-4aa0-b377-4d20f15e872a)
 
-10. Close the window. 
+10. Click on Save, and close the window. 
 
 ### 4. Setting Up the Wheel Blueprint
 
@@ -318,7 +318,7 @@ The AnimGraph should look like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/23b1374d-a445-4fba-a8f4-a0ad8277d8e6)
 
-4. Click on the Compile button in the right top corner and close that window.
+4. Click on the Compile button in the right top corner, then on Save and close that window.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8f293e14-1bee-484b-b865-1bf9676a893b)
 
@@ -407,7 +407,7 @@ After clicking that, you should get something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/93001eb1-64cf-47da-a6b8-dc99154eb772)
 
-10. Click on Compile button and the on Save.
+10. Click on Compile button and then on Save. Finally, close the window. 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a5418da6-1fa9-4e28-b17d-bbd52370e26d)
 
