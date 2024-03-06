@@ -306,6 +306,9 @@ The AnimGraph should look like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/63a5f739-8e5c-401b-9e56-d8db3ad0c9df)
 
+2. Select the wheel from a car (that appears in the search results) that you would like to reference. In our example, we have selected 'BP_AudiTT_FRW' and created a Wheel Blueprint file. Rename the file to 'BP_ModelName_Wheel' (in our case, the name should be BP_ERP42_Wheel) as any other file. That name follows the Unreal Engine's recommended asset naming conventions.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/77d4eb4c-16c8-4b98-af5e-ee50071b8835)
 
 
 
