@@ -445,7 +445,7 @@ After clicking that, you should get something like this.
 
 8. Close the window, and you are done by adding a new vehicle!!! Congrats!!
 
-To save everything, click in the File tab at the top, and select Save Current, and that's all!!
+9. To save everything, click in the File tab at the top, and select Save Current, and that's all!!
 
 If you want to see how your vehicle is seen in your map, you can go to the directory where you save your map and doble click on the level file (the orange one). You can skip this step if you set that map as default. 
 
