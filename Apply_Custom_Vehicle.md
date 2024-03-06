@@ -381,6 +381,8 @@ The AnimGraph should look like this.
        ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d2b9320e-15ba-4623-b12a-77a95fd94d3a)
 
        ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/dd1e7519-850d-4c82-8599-9e689e1c704d)
+  
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/31e227ca-2681-47f6-bb80-c6ceef0a3d89)
 
      - **Engine Setup**
 
