@@ -366,35 +366,26 @@ The AnimGraph should look like this.
 
    * Then, in the Bone Name field set a name for every wheel. Every wheel should already have a name, try to put a similar one. In my case I just delete the 'Wheel' part of the name by default. 
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a29f809a-d2ca-4a19-9867-9f1bec7b04dd)
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/e52e1aef-8f10-4b50-9e7c-538415dd0f64)
 
    * In the Disable Steering field, check the box for the wheels that will not steer. They probably are the rear wheels. In my case, I check the boxes of the rear wheels.
   
-
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2531d616-93d9-4fd3-9461-259578ef25d3)
   
    * In the Mechanical Setup section set the Torque Curve, Engine Setup, Differential Setup and Transmission Setup according to the vehicle's specifications such as engine, transmission, etc. For this tutorial, the configuration is as follows.
   
-     - **Torque Curve:** You have to have 7 points in total, to create them move the mouse where you want to create one, then right click  and select Add Key to None. Then move the points following this scheme and coordinates. 
+     - **Torque Curve:** You have to have 7 points in total, to create them move the mouse where you want to create one, then right click  and select "Add Key to None". To set the coordinates of every point, click on the point and then click over the value next to Time and type the desired number, and make the same for the Value. 
     
        ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/49ffa0e8-c5b2-4e4b-a843-e57db6bfaf09)
   
-       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d2b9320e-15ba-4623-b12a-77a95fd94d3a)
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a21faedb-c116-4c68-b14d-e370ef56dcc3)
 
-       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/dd1e7519-850d-4c82-8599-9e689e1c704d)
-  
-       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/31e227ca-2681-47f6-bb80-c6ceef0a3d89)
+     - **Engine Setup, Differential Setup, Transmission Setup, etc.**
 
-     - **Engine Setup**
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9e8fdd32-caf5-4604-8c94-81369704539b)
 
-       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2b613e66-bccc-4678-a4b0-809413d5df54)
-
-     - **Differential Setup**
-    
-       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8d985698-8023-4d74-a2b0-28501e9ff80c)
-
-     - **Transmission Setup:** In this field, you might delete some gears, you can do that by click the X at the end of the values of every gear.
-
-       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0282aac5-52c6-48ba-9366-e3897071372e)
 
 8. In the Components section in the left side, click on "CustomCollision (Inherited)".
 
