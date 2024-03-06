@@ -435,15 +435,15 @@ After clicking that, you should get something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ffb46a2a-4783-46cc-9729-ab1603b0dec2)
 
-6. Fill in the Make (this field is up to you, I type: UnmannedSolution) and Model (this field is up to you, but I type ERP42) and select 'BP_ModelName_Pawn' (in this case is BP_ERP42_Pawn) for Class. Finally, set the Number Of Wheels to 4, Generation to 2, and Base Type to 'car'.
+6. Fill in the Make (this field is up to you, I typed UnmannedSolution) and Model (this field is up to you, but I typed ERP42) and select 'BP_ModelName_Pawn' (in this case is BP_ERP42_Pawn) for Class. Finally, set the Number Of Wheels to 4, Generation to 2, and Base Type to 'car'.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/532d1c2b-8876-4002-86b1-45854dfb0169)
 
 7. Click on compile in the top right corner, and then on Save.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a380a6dd-ed4c-49da-b74f-af3b0703e935)
 
-
-8. Close the window. 
+8. Close the window, and you are done by adding a new vehicle!!! Congrats!!
 
 
 
