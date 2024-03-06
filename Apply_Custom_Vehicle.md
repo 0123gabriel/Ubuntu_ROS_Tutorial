@@ -310,7 +310,19 @@ The AnimGraph should look like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/77d4eb4c-16c8-4b98-af5e-ee50071b8835)
 
+3. Double-click the generated file and enter the required values for your custom vehicle. This values are located in the right side. In our example, we used the following specifications.
 
+   * The Shape Radious, Shape Width and Damping Rate fields are in the Wheel section.
+   * The Steer Angle field is in the Wheels Setup section.
+   * The Lat Stiff Max Load, Lat Stiff Value and Long Stiff Value fields are in the Tire section. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/23b1374d-a445-4fba-a8f4-a0ad8277d8e6)
+
+4. Click on the Compile button in the right top corner and close that window.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8f293e14-1bee-484b-b865-1bf9676a893b)
+
+### 5. Setting Up a Vehicle Spawn Blueprint
 
 
 
