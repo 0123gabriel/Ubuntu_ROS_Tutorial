@@ -445,6 +445,15 @@ After clicking that, you should get something like this.
 
 8. Close the window, and you are done by adding a new vehicle!!! Congrats!!
 
+If you want to see how your vehicle is seen in your map, you can go to the directory where you save your map and doble click on the level file (the orange one). You can skip this step if you set that map as default. 
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f6e787c0-1e81-4203-8fa9-88bda2bd9389)
 
+Then go to the directory where you save your vehicle's files and drag the Skeletal Mesh file (or the one called SM_ERP42 or the pink one) to the window that is in the center. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/57fd2c3d-3c3e-4cf6-8360-3ea60778b96e)
+
+You will see your vehicle in your map. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f251bacd-c9c3-4680-ad6e-24f79d93baa0)
 
