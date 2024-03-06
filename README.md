@@ -2,7 +2,7 @@
 
 The tutorials presented in the following repository were made to help other users to install CARLA simulator. The order you should follow the tutorials are below. 
 
-**1. Install_Ubuntu_ROS:** This tutorial will guide you to install Ubuntu 18.04. 
+**1. Install_Ubuntu_ROS:** This tutorial will guide you to install Ubuntu 18.04. But this tutorial should work with any Ubuntu version. 
 
 **2. Install_MATLAB:** This tutorial will help you to install MATLAB which is a program that will help to RoadRunner (another MathWorks app).
 
