@@ -324,6 +324,87 @@ The AnimGraph should look like this.
 
 ### 5. Setting Up a Vehicle Spawn Blueprint
 
+1. In the content browser directory where you have your new vehicle asset, right click and choose Blueprints and Blueprint Class. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d02af31b-cd11-411b-8474-20abfb5f96ab)
+
+2. In the All Classes menu, select BaseVehiclePawn and create a file named 'BP_ModelName_Pawn', in this case it should be BP_ERP42_Pawn. Then click on select.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/cefa8323-3b8a-4b8f-b3da-6045eeefced1)
+
+3. Double click on the new file, and you will see the following window.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a7848e68-075d-409f-a6f8-e5981d68ef75)
+
+4. In the Components section in the left side, click on Mesh (VehicleMesh) (Inherited)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/1113a7a5-444e-44c4-8868-5fcabd0c385f)
+
+5. The details section on the right side needs to be modified as follows.
+
+   * In the Mesh menu, change Skeletal Mesh from None to 'SM_ModelName', in this case SM_ERP42. Once you select it, you will see that the car appears in the center of the window. 
+     
+     ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/faf78ba2-504d-4a8e-aac5-f9d53b5f3d69)
+
+   * In the Animation menu, change Anim Class from None to 'ABP_ModelName', in this case ABP_ERP42.
+     
+     ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a97e3b5b-7e95-43a5-831c-3223f463dde5)
+
+   * In the Physics menu, change the "x" and "y" components of the Center Of Mass Offsetx field to 0. It is possible that you might click on a downwards triangle with a straight line over it to open more options and find this field. 
+  
+     ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/edf9b720-4910-4c19-ae2d-ca2f5b2b8d47)
+
+6. In the Components section in the left side, click on "Vehicle Movement (MovementComp) (Inherited)"
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/adc89659-34f3-4245-b004-14c325900869)
+
+7. The details of 'Vehicle Movement (MovementComp) (inherited)' need to be modified as follows.
+
+   * In the Vehicle Setup menu, open the drop-down menu by clicking over Wheel Setups, and then repeat by clicking in every wheel. Then, for the 4 wheels set the Wheel Class to 'BP_ModelName_Wheel', in this case is 'BP_ERP42_Wheel'.
+
+     ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9d1202ce-d292-47a5-a75b-0d776898461f)
+
+   * Then, in the Bone Name field set a name for every wheel. Every wheel should already have a name, try to put a similar one. In my case I just delete the 'Wheel' part of the name by default. 
+
+
+
+   * In the Disable Steering field, check the box for the wheels that will not steer. They probably are the rear wheels. In my case, I check the boxes of the rear wheels.
+  
+
+  
+   * In the Mechanical Setup section set the Torque Curve, Engine Setup, Differential Setup and Transmission Setup according to the vehicle's specifications such as engine, transmission, etc. For this tutorial, the configuration is as follows.
+  
+     - **Torque Curve:** You have to have 7 points in total, to create them move the mouse where you want to create one, then right click  and select Add Key to None. Then move the points following this scheme and coordinates. 
+    
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/49ffa0e8-c5b2-4e4b-a843-e57db6bfaf09)
+  
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d2b9320e-15ba-4623-b12a-77a95fd94d3a)
+
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/dd1e7519-850d-4c82-8599-9e689e1c704d)
+
+     - **Engine Setup**
+
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2b613e66-bccc-4678-a4b0-809413d5df54)
+
+     - **Differential Setup**
+    
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/8d985698-8023-4d74-a2b0-28501e9ff80c)
+
+     - **Transmission Setup:** In this field, you might delete some gears, you can do that by click the X at the end of the values of every gear.
+
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0282aac5-52c6-48ba-9366-e3897071372e)
+
+8. In the Components section in the left side, click on "CustomCollision (Inherited)".
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0c91eab2-c0c6-4281-bd95-d4398d22dddf)
+
+9. In the Details panel on the right side, search the Static Mesh menu, and in the Static Mesh field select the 'SM_sc_ModelName', in this tutorial it should be 'SM_sc_ERP42'.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/aace1c54-09b6-4de8-8f2f-457581fb520f)
+
+After clicking that, you should get something like this. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/93001eb1-64cf-47da-a6b8-dc99154eb772)
 
 
 
