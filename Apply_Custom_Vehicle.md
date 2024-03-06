@@ -386,7 +386,15 @@ The AnimGraph should look like this.
 
        ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9e8fdd32-caf5-4604-8c94-81369704539b)
 
+       You should get something like this for the **Mechanical Setup.** It is possible that in this section you will hace to delete some gears, you can do that by click the X at the end of the values of every  gear.  
 
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2f9069f8-7ee1-4d4b-a6e3-ce42b4c0e6cd)
+
+       And with something like this for the **Vehicle Input**
+
+       ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b5f84e32-ac41-4e50-a1fb-b028f015cfac)
+
+       
 8. In the Components section in the left side, click on "CustomCollision (Inherited)".
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0c91eab2-c0c6-4281-bd95-d4398d22dddf)
