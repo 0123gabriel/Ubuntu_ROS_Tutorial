@@ -208,6 +208,81 @@ Once all the files are imported, the folder that contains them should look like 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/30fa8265-8474-4c12-b5e5-e47609f5b6e6)
 
-### Setting up Physics
+### 2. Setting up Physics
+
+1. Double click on the Physics Assets file. To know which one it is, you can move the mouse over every item, and a window with more information about the file will appear. In the information window, next to the name of the file you can check what type of file is that one. Another way to know that is the name we have setted, it should be PHYS_ERP42.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/7e8bfa22-ef9b-4b55-9e4a-dcaaec44a7fe)
+
+After double clicking it, you should get this window. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/15c18b05-0017-476f-8131-3555cc386024)
+
+2. In the Skeleton Tree on the left, click on Root.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5ed43dd5-c2bc-44aa-a77a-23d328d77466)
+
+3. In the Deatisl section on the left, change the following 3 settings from the default settings.
+
+   * In the Physics section change the Linear Damping field to zero (0).
+   * In the Collision section, check the box next to Simulation Generates Hit Events.
+   * In the Body Creation section, in the Primitive Type field, change it to Box option.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/fbe796e7-a54f-4318-8290-449c32b012a5)
+
+4. Click on Re-generate Bodies.
+5. Now select all the wheels in the Skeleton Tree section on the left by keep pressing CTRL key and clicking every wheel.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/9736037f-2c27-4b1c-9cde-88a7c452cb6e)
+ 
+6. Change the following settings in the Details section on the left side.
+
+   * In the Physics section change the Linear Damping field to zero (0).
+   * In the Physics section change the Physics Type field to Kinematics.
+   * In the Collision sectio, change the Collision Response to Disabled.
+   * In the Body Creation section, in the Primitive Type field, change it to Sphere option.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/afe0c0ba-4034-4d8b-a4f3-d3e54a2b0e88)
+
+7. Press the Re-generate Bodies button once again, and click anywhere. You should get something like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/cf261030-4bab-4f39-a30e-7ed8375080a3)
+
+8. Close that window.
+
+### 3. Animation Blueprint Settings
+
+1. In the content browser directory where you have your new vehicle asset, right click and choose Animation and Animation Blueprint. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/5d17b2b6-3cf5-434c-b478-288192808e58)
+
+2. In the popup that opens, search for VehicleAnimInstance in the Parent Class section and for the Target Skeleton search for the skeleton corresponding to your new vehicle, you should be able to see the name in your content browser. After selecting these two things press OK. This will create a new animation blueprint for your vehicle.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/651a8324-f860-4408-94b8-5fb0b176d7f8)
+
+3. Rename the generated file to 'ABP_ModelName' (in this case ABP_ERP42), following Unreal Engine's recommended asset naming conventions.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/00a1decb-6c78-420f-80af-7be8d5c8f052)
+
+4. Double-click on the generated file to run it.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/58a814bc-0976-4029-894c-986957f60d16)
+
+5. Right click in the center of the window to add an action.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/166f6d17-2164-4786-bbfb-4bf4da907c8a)
+
+6. 
+
+
+
+
+
+
+
+
+
+
+
 
 
