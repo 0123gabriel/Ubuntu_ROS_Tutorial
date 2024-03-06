@@ -412,3 +412,39 @@ After clicking that, you should get something like this.
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a5418da6-1fa9-4e28-b17d-bbd52370e26d)
 
 ### 6. Registering a custom vehicle in Vehicle Factory
+
+1. In the Content Browser go to the this directory: Content/Carla/Blueprints/Vehicles.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/33752080-d5e5-41c5-b5ad-cb665bd23be1)
+
+2. Open the 'VehicleFactory' file, and in the centered window (the window with the grid) click on the 'Generate Definition' tab.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/03999b42-777b-4847-9d87-b0bbcecbd6d2)
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/85c8562e-6795-4e56-9ed0-b265c9265fd6)
+
+3. Click the Vehicle node.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/e616ffb5-8307-4a9d-a79e-5755e5607bb2)
+
+4. In the Details menu on the right, click on Default Value. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/30387e1e-f078-4593-8374-ac0f773d8e37)
+
+5. Click the + icon for Vehicles and edit the newly created empty entry at the bottom.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/ffb46a2a-4783-46cc-9729-ab1603b0dec2)
+
+6. Fill in the Make (this field is up to you, I type: UnmannedSolution) and Model (this field is up to you, but I type ERP42) and select 'BP_ModelName_Pawn' (in this case is BP_ERP42_Pawn) for Class. Finally, set the Number Of Wheels to 4, Generation to 2, and Base Type to 'car'.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/532d1c2b-8876-4002-86b1-45854dfb0169)
+
+7. Click on compile in the top right corner, and then on Save.
+
+
+
+8. Close the window. 
+
+
+
+
