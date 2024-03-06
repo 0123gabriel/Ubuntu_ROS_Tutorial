@@ -411,4 +411,4 @@ After clicking that, you should get something like this.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/a5418da6-1fa9-4e28-b17d-bbd52370e26d)
 
-
+### 6. Registering a custom vehicle in Vehicle Factory
