@@ -272,7 +272,7 @@ After double clicking it, you should get this window.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/166f6d17-2164-4786-bbfb-4bf4da907c8a)
 
-6. Add the following blocks:
+6. Add the following blocks by clicking on them:
 
    * Wheel Handler for WheeledVehicle
      
@@ -286,6 +286,13 @@ The AnimGraph should look like this.
   
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/987d8628-f36a-4f84-8359-306407b9cb9e)
 
+7. Connect the Component Pose of the Mesh Space Ref Pose with the Component Pose of the Wheel Handler
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c78c968d-543c-4f2d-bc79-1569de65d4b7)
+
+8. Click on the small item of a person that is in the Wheel Handler and drag the mouse to connect it with the Output Pose. A block called "" should appear in the middle of those 2 blocks.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/032c8ac1-4415-46f2-ae02-209d8518e10b)
 
 
 
