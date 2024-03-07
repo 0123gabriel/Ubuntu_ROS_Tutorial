@@ -57,3 +57,20 @@ The advantages of creating a package for distribution versus running the CARLA s
 6. I would recommend to delete the rest of the maps, because building all unnecessary maps will significantly increase the packing time and capacity. You can delete them by clicking the inverted triangle icon on the right, and select the Delete button.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/286dc4d9-d87d-49db-a9c0-b3563964971b)
+
+Once you have deleted all the maps except yours, you should get something like this.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c6001360-9ab5-4330-b12c-9eb192ca39b4)
+
+7. Go to the Additional Non-Assets Directories to Package and remove all items except 'Carla/Config'.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d65b9a2b-3594-45ed-8c4a-f3a3d449292a)
+ 
+8. Then, create another blank space by clicking on the '+' icon, and, for custom maps only, type the following directory.
+
+```bash
+Content/Carla/Maps/{the name of the folder that contains your custom map}/OpenDrive
+```
+
+
+
