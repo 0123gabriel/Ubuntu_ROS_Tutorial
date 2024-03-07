@@ -50,4 +50,9 @@ The advantages of creating a package for distribution versus running the CARLA s
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/93b2a631-8d21-4fed-adb2-dde7f5ee2d0d)
 
+5. In the new blank space that appear at the end, type the directory where you have your map.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c6198c74-ac72-43f4-9df8-2d357d00f8f0)
+
+6. I would recommend to delete the rest of the maps, because building all unnecessary maps will significantly increase the packing time and capacity. You can delete them by clicking the inverted triangle icon on the right, and select the Delete button.
 
