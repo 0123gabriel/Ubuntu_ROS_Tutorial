@@ -123,7 +123,7 @@ Once the packaging is complete a CARLA simulator is created for distribution in 
 3. Run the following command.
 
 ```bash
-./CaralUE4.sh
+./CarlaUE4.sh
 ```
 
 
