@@ -73,7 +73,7 @@ Once you have deleted all the maps except yours, you should get something like t
 9. Come back to the previous window and create another blank space in 'Additional Non-Assets Directories to Package' field by clicking on the '+' icon, and type the directory of the OpenDrive folder that we just create in the last step.
 
 ```bash
-Content/Carla/Maps/{the name of the folder that contains your custom map}/OpenDrive
+Carla/Maps/{the name of the folder that contains your custom map}/OpenDrive
 ```
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/08250fe9-eb8f-4a8a-8372-590fa3b1a8df)
