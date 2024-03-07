@@ -108,7 +108,23 @@ Once the packaging is complete a CARLA simulator is created for distribution in 
 
 ## Running the distribution package that was recently created
 
-1. Go to the following ddirectory using :
+1. Go to the following directory using the Files app:
 
 ```bash
-/{Carla root directory}/Dist/CARLA_shipping_{}
+/{Carla root directory}/Dist/CARLA_shipping_{CARLA version}/LinuxNoEditor
+```
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/0cf08a4f-07fe-4767-a77c-277fdec07a29)
+
+2. Right click anywhere, and select Open in Terminal.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d27a9568-055f-445f-b33b-6966e9d42b57)
+
+3. Run the following command.
+
+```bash
+./CaralUE4.sh
+```
+
+
+
