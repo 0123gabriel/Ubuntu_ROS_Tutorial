@@ -70,7 +70,7 @@ Once you have deleted all the maps except yours, you should get something like t
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/84c05594-0cc8-441f-ab92-035961dc6f98)
 
-9. Come back to the previous window and create another blank space in 'Additional Non-Assets Directories to Package' field by clicking on the '+' icon, and type the directory of the OpenDrive folder that we just create in the last step.
+9. Come back to the previous window and create another blank space in 'Additional Non-Assets Directories to Package' field by clicking on the '+' icon, and type the directory of the OpenDrive folder that we just create in the last step. Do not include the Content folder beacuse CARLA include it by defult. 
 
 ```bash
 Carla/Maps/{the name of the folder that contains your custom map}/OpenDrive
@@ -98,4 +98,14 @@ make package
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/1a6f8fe4-c400-4f0b-9207-ff21a290f1c2)
 
-2. 
+Make sure that when that command ends its execution, you get something like the following message. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/1814a676-6a3a-40c5-8b9b-f7d33eecf570)
+
+The second line shows where the CARLA released was created, and the thrid line that the process was completed correctly. 
+
+Once the packaging is complete a CARLA simulator is created for distribution in the /Dist/CARLA-Shipping_(version) folder which in side the directory where the CARLA simulator is installed. If you want to distribute it, you can give out all files inside the /Dist/CARLA_Shipping_(version) folder. 
+
+## Running the distribution package that was recently created
+
+
