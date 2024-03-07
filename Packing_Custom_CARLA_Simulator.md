@@ -128,5 +128,6 @@ Once the packaging is complete a CARLA simulator is created for distribution in 
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f1d499e9-7500-4c6a-9e88-85222fce829b)
 
+4. A CarlaUE4 window should open, and will see the map you created. 
 
-
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/6feeb439-3ffa-4588-9e08-a79b1bf6f3aa)
