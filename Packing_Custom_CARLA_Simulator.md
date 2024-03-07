@@ -108,4 +108,7 @@ Once the packaging is complete a CARLA simulator is created for distribution in 
 
 ## Running the distribution package that was recently created
 
+1. Go to the following ddirectory using :
 
+```bash
+/{Carla root directory}/Dist/CARLA_shipping_{}
