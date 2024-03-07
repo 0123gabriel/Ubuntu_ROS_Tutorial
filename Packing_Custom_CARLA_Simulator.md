@@ -34,10 +34,14 @@ The advantages of creating a package for distribution versus running the CARLA s
 
 ## 2. Update map list
 
+1. In the same window we opened in the previous step, in the Project menu, click on the Packaging option.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/31e2928d-1639-4af2-afaa-708b0e2cb21f)
 
+2. In the Packaging menu (the first one), click on the Show Advanced.
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b95d0755-7bbd-46d0-987d-1ef3ac1429b0)
 
-
+3. 
 
 
