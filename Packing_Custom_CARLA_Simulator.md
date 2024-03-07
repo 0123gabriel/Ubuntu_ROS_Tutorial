@@ -76,7 +76,7 @@ Once you have deleted all the maps except yours, you should get something like t
 Carla/Maps/{the name of the folder that contains your custom map}/OpenDrive
 ```
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/08250fe9-eb8f-4a8a-8372-590fa3b1a8df)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f5a8ebbb-4756-471d-93ee-5cc67933bb7d)
 
 ## 3. Other packaging options
 
