@@ -82,11 +82,11 @@ Carla/Maps/{the name of the folder that contains your custom map}/OpenDrive
 
 1. In the same window we were working in the previous step, go to the Project menu.
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2281597d-57b6-43f8-966e-24f5e643ffda)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/69c295c8-6b98-4c50-b6d6-bac88c85691d)
 
 2. In the Build Configuration field set the Shipping option. 
 
-![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/25726a71-8ee2-4ad7-97d9-4ed7621eb90c)
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/59d6a8a1-82d5-47c6-8b91-c209d66bfc09)
 
 ## 4. Packaging
 
