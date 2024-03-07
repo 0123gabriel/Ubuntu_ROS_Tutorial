@@ -62,15 +62,40 @@ Once you have deleted all the maps except yours, you should get something like t
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/c6001360-9ab5-4330-b12c-9eb192ca39b4)
 
-7. Go to the Additional Non-Assets Directories to Package and remove all items except 'Carla/Config'.
+7. Go to the 'Additional Non-Assets Directories to Package' and remove all items except 'Carla/Config'.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/d65b9a2b-3594-45ed-8c4a-f3a3d449292a)
- 
-8. Then, create another blank space by clicking on the '+' icon, and, for custom maps only, type the following directory.
+
+8. Minimize that window, and inside the directory where your custom map is create one folder called OpenDrive.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/84c05594-0cc8-441f-ab92-035961dc6f98)
+
+9. Come back to the previous window and create another blank space in 'Additional Non-Assets Directories to Package' field by clicking on the '+' icon, and type the directory of the OpenDrive folder that we just create in the last step.
 
 ```bash
 Content/Carla/Maps/{the name of the folder that contains your custom map}/OpenDrive
 ```
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/08250fe9-eb8f-4a8a-8372-590fa3b1a8df)
 
+## 3. Other packaging options
 
+1. In the same window we were working in the previous step, go to the Project menu.
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/2281597d-57b6-43f8-966e-24f5e643ffda)
+
+2. In the Build Configuration field set the Shipping option. 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/25726a71-8ee2-4ad7-97d9-4ed7621eb90c)
+
+## 4. Packaging
+
+1. Close the Unreal Editor, and the open a Terminal, and go to the CARLA root directory, and run the following command.
+
+```bash
+make package
+```
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/1a6f8fe4-c400-4f0b-9207-ff21a290f1c2)
+
+2. 
