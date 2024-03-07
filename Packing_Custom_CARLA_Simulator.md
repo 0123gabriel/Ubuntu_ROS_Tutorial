@@ -38,10 +38,13 @@ The advantages of creating a package for distribution versus running the CARLA s
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/31e2928d-1639-4af2-afaa-708b0e2cb21f)
 
-2. In the Packaging menu (the first one), click on the Show Advanced.
+2. In the Packaging menu (the first one), click on Show Advanced.
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/b95d0755-7bbd-46d0-987d-1ef3ac1429b0)
 
-3. 
+3. In the new options that appear, search the "List of maps to include in a packaged build".
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/722f87d3-23c2-4c60-99da-9b03d6e642b5)
+
 
 
