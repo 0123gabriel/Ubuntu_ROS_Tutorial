@@ -46,5 +46,8 @@ The advantages of creating a package for distribution versus running the CARLA s
 
 ![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/722f87d3-23c2-4c60-99da-9b03d6e642b5)
 
+4. In that list, click on the '+' icon to add a new map. Then 
+
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/93b2a631-8d21-4fed-adb2-dde7f5ee2d0d)
 
 
