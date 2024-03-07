@@ -126,5 +126,7 @@ Once the packaging is complete a CARLA simulator is created for distribution in 
 ./CarlaUE4.sh
 ```
 
+![image](https://github.com/0123gabriel/Ubuntu_ROS_Tutorial/assets/108648272/f1d499e9-7500-4c6a-9e88-85222fce829b)
+
 
 
