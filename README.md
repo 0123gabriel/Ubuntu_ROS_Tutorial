@@ -1,6 +1,6 @@
 # CARLA Simulator
 
-The tutorials presented in the following repository were made to help other users to install CARLA simulator. The order you should follow the tutorials are below. 
+The tutorials presented in the following repository were made to help other users to install CARLA simulator. The order you should follow the tutorials is presented below. 
 
 **1. Install_Ubuntu_ROS:** This tutorial will guide you to install Ubuntu 18.04. But this tutorial should work with any Ubuntu version. 
 
